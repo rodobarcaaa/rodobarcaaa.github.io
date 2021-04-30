@@ -14,8 +14,8 @@ pygmentOptions = "linenos=inline"
 #googleAnalytics = "XXX"
 
 [Params]
-#homeTitle = "My technology blog" # Set a different text for the header on the home page
-#subtitle = "My technology blog"
+homeTitle = "My personal technology blog"
+#subtitle = "..."
 mainSections = ["post"]
 logo = "img/profile.jpeg" # Expecting square dimensions
 favicon = "img/favicon.ico"
