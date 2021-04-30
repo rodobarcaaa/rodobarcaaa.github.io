@@ -1,1 +1,2 @@
-# rodobarcaaa.github.io
+# About
+My personal technology blog
