@@ -1,5 +1,5 @@
 ---
-title: "¿Porque Scala? ¿Que es y tiene de interesante?"
+title: "¿Por qué Scala?"
 date: 2021-04-28T08:51:49-03:00
 draft: false
 tags:
@@ -26,7 +26,7 @@ información inmutable, incluye: first-class vals, case classes, higher order fu
 typeclasses, through implicits, que hace mucho más fácil trabajar con tipos containers como Futures o Tasks.
 
 
-#### ¿Como puedo aprender Scala?
+#### ¿Cómo puedo aprender Scala?
 Hay una amplia gama de documentación para aprender Scala en la red, muchos libros buenísimos e innumerables blogs (Al final recomendamos),
 pero una opción que siempre recomiendo mucho, para principiantes y de la cual aprendí un montón es [Scala Exercises](https://www.scala-exercises.org/)
 una plataforma interactiva y práctica donde primero te explican el funcionamiento y posteriormente debe realizar un ejercicio acorde.

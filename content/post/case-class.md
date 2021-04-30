@@ -1,5 +1,5 @@
 ---
-title: "¡Scala: Clases, Case Clases y sus secretos!"
+title: "¡Class, Case Class y sus secretos!"
 date: 2021-04-30T08:51:49-03:00
 draft: false
 tags:
