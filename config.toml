@@ -1,4 +1,5 @@
 baseurl = "https://rodobarcaaa.github.io"
+publishDir = "docs"
 DefaultContentLanguage = "en"
 title = "Rodolfo's blog"
 theme = "beautifulhugo"
