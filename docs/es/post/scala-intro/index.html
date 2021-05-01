@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="es" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>¿Por qué Scala? - Rodolfo&#39;s blog</title>
+  <meta name="description" content="¿Qué es Scala? Scala es un lenguaje open source creado por Martin Odersky, por concepto es un lenguaje multi-paradigma de propósito general, que combina programación orientada a objetos y funcional en un lenguaje de alto nivel y con tipos seguros. Gracias a sus tipos estáticos ayuda evitar errores en aplicaciones muy complejas. Es ejecutado en la JVM, además se integra con JavaScript, permite construir sistemas de alto rendimiento y con fácil acceso a enormes ecosistemas de librerías.">
+  <meta name="author" content="Rodolfo Echemendía Quintana"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Rodolfo\x27s blog",
+    
+    "url": "https:\/\/rodobarcaaa.github.io"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/rodobarcaaa.github.io"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/rodobarcaaa.github.io",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/rodobarcaaa.github.io\/es\/post\/scala-intro\/",
+          "name": "¿ por qué scala?"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Rodolfo Echemendía Quintana"
+  },
+  "headline": "¿Por qué Scala?",
+  "description" : "¿Qué es Scala? Scala es un lenguaje open source creado por Martin Odersky, por concepto es un lenguaje multi-paradigma de propósito general, que combina programación orientada a objetos y funcional en un lenguaje de alto nivel y con tipos seguros. Gracias a sus tipos estáticos ayuda evitar errores en aplicaciones muy complejas. Es ejecutado en la JVM, además se integra con JavaScript, permite construir sistemas de alto rendimiento y con fácil acceso a enormes ecosistemas de librerías.",
+  "inLanguage" : "es",
+  "wordCount":  1608 ,
+  "datePublished" : "2021-04-28T08:51:49",
+  "dateModified" : "2021-04-28T08:51:49",
+  "image" : "https:\/\/rodobarcaaa.github.io\/img\/profile.jpeg",
+  "keywords" : [ "scala" ],
+  "mainEntityOfPage" : "https:\/\/rodobarcaaa.github.io\/es\/post\/scala-intro\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/rodobarcaaa.github.io",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/rodobarcaaa.github.io\/img\/profile.jpeg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="¿Por qué Scala?" />
+<meta property="og:description" content="¿Qué es Scala? Scala es un lenguaje open source creado por Martin Odersky, por concepto es un lenguaje multi-paradigma de propósito general, que combina programación orientada a objetos y funcional en un lenguaje de alto nivel y con tipos seguros. Gracias a sus tipos estáticos ayuda evitar errores en aplicaciones muy complejas. Es ejecutado en la JVM, además se integra con JavaScript, permite construir sistemas de alto rendimiento y con fácil acceso a enormes ecosistemas de librerías.">
+<meta property="og:image" content="https://rodobarcaaa.github.io/img/profile.jpeg" />
+<meta property="og:url" content="https://rodobarcaaa.github.io/es/post/scala-intro/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Rodolfo&#39;s blog" />
+
+  <meta name="twitter:title" content="¿Por qué Scala?" />
+  <meta name="twitter:description" content="¿Qué es Scala? Scala es un lenguaje open source creado por Martin Odersky, por concepto es un lenguaje multi-paradigma de propósito general, que combina programación orientada a objetos y funcional en …">
+  <meta name="twitter:image" content="https://rodobarcaaa.github.io/img/profile.jpeg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@rodobarcaaa" />
+  <meta name="twitter:creator" content="@rodobarcaaa" />
+  <link href='https://rodobarcaaa.github.io/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.68.3" />
+  <link rel="alternate" href="https://rodobarcaaa.github.io/es/index.xml" type="application/rss+xml" title="Rodolfo&#39;s blog"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://rodobarcaaa.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://rodobarcaaa.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://rodobarcaaa.github.io/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Conmuta navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://rodobarcaaa.github.io/es/">Rodolfo&#39;s blog</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/es">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Sobre Mi" href="/es/page/about/">Sobre Mi</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/es/tags">Tags</a>
+            </li>
+          
+        
+
+        
+          
+            <li>
+              
+                
+                  <a href="/en" lang="en">English</a>
+                
+              
+                
+              
+            </li>
+          
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="Rodolfo&#39;s blog" href="https://rodobarcaaa.github.io/es/">
+            <img class="avatar-img" src="https://rodobarcaaa.github.io/img/profile.jpeg" alt="Rodolfo&#39;s blog" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>¿Por qué Scala?</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Publicado el map[Count:April 28, 2021]
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;8&nbsp;minutos
+  
+  
+  
+  &nbsp;&bull;&nbsp;Otros idiomas: <a href="https://rodobarcaaa.github.io/en/post/scala-intro/" lang="en">English</a>
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <h2 id="qué-es-scala">¿Qué es Scala?</h2>
+<p>Scala es un lenguaje open source creado por Martin Odersky, por concepto es un lenguaje <strong>multi-paradigma</strong> de propósito general,
+que combina programación <strong>orientada a objetos</strong> y <strong>funcional</strong> en un lenguaje de alto nivel y con tipos seguros.
+Gracias a sus tipos estáticos ayuda evitar errores en aplicaciones muy complejas. Es ejecutado en la JVM, además se integra
+con JavaScript, permite construir sistemas de <strong>alto rendimiento</strong> y con fácil acceso a enormes <strong>ecosistemas de librerías</strong>.</p>
+<p>En el mundo del desarrollo de software actual es considerado como un <strong>lenguaje complejo para aprender</strong> y suelen decir que
+pocos desarrolladores saben cómo trabajar (de verdad) con Scala; Algo con lo que no coincido &hellip; ¿Porque miremos porque surge?  Scala surge con el
+objetivo de ser un mejor lenguaje, cambiando esos aspectos de Java que consideramos antiguos, tediosos y frustrantes,
+para así tener un resultado más limpio, organizado, fácil de utilizar y con una mejor productividad final.</p>
+<p>Scala es un acrónimo de lenguaje <strong>escalable</strong>, favorece la creación de <strong>abstracciones</strong>, la programación
+<strong>distribuida o simultánea</strong>, permite <strong>inmutabilidad</strong> y por ello es fácil escribir código mediante el uso de<br>
+información inmutable, incluye: first-class vals, case classes, higher order functions, higher-kinded types,
+typeclasses, through implicits, que hace mucho más fácil trabajar con tipos containers como Futures o Tasks.</p>
+<h4 id="cómo-puedo-aprender-scala">¿Cómo puedo aprender Scala?</h4>
+<p>Hay una amplia gama de documentación para aprender Scala en la red, muchos libros buenísimos e innumerables blogs (Al final recomendamos),
+pero una opción que siempre recomiendo mucho, para principiantes y de la cual aprendí un montón es <a href="https://www.scala-exercises.org/">Scala Exercises</a>
+una plataforma interactiva y práctica donde primero te explican el funcionamiento y posteriormente debe realizar un ejercicio acorde.
+Además tenemos siempre de forma gratuita u opcional pago para la certificación unos excelentes cursos en <a href="https://es.coursera.org/specializations/scala">Coursera</a> donde podemos aprender del pi al pa como
+decimos los cubanos.</p>
+<h4 id="veamos-un-hola-mundo-y-parte-de-su-sintaxis">Veamos un Hola Mundo y parte de su sintaxis</h4>
+<p>Como vamos a presentar un lenguaje si no explicamos su <strong>sintaxis</strong> y hacemos el típico <strong>Hola Mundo</strong>. Si comparamos con
+otros lenguajes como Java o JavaScript, Scala tiene una sintaxis muy similar pero con la particularidad que no es obligatorio ni el <strong>&quot;;&quot;</strong> al final de cada línea ni la palabra reservada <strong>return</strong> para retornar el valor de un método, cuenta con <strong>inferencia de tipos</strong>, todo es un <strong>objeto</strong>, incluyendo las funciones, bueno todo todo.</p>
+<p>Veamos el <strong>Hola Mundo</strong> y otros ejemplos:</p>
+<div class="highlight"><pre class="chroma"><code class="language-scala" data-lang="scala"><span class="k">object</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
+
+  <span class="cm">/**
+</span><span class="cm">    * Como insertamos un comentario en un inicio de un método y que se incluye en el ScalaDoc
+</span><span class="cm">    *
+</span><span class="cm">    * @param args describimos la entrada de argumentos o otro input value
+</span><span class="cm">    */</span>
+  <span class="k">def</span> <span class="n">main</span><span class="o">(</span><span class="n">args</span><span class="k">:</span> <span class="kt">Array</span><span class="o">[</span><span class="kt">String</span><span class="o">])</span><span class="k">:</span> <span class="kt">Unit</span> <span class="o">=</span> <span class="o">{</span>
+    <span class="c1">//Comentario interno y creación de una variable o valiable
+</span><span class="c1"></span>    <span class="c1">//como algunos le llamamos a los val inmutables
+</span><span class="c1"></span>    <span class="k">val</span> <span class="n">message</span> <span class="k">=</span> <span class="s">&#34;¡Hola, mundo!&#34;</span>
+    <span class="n">println</span><span class="o">(</span><span class="n">message</span><span class="o">)</span> <span class="c1">//¡Hola, mundo!
+</span><span class="c1"></span>  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><p>También podemos tener una versión del Hola Mundo reducida, extendemos de un trait App que facilita poder escribir y ejecutar cualquier sentencia de código:</p>
+<div class="highlight"><pre class="chroma"><code class="language-scala" data-lang="scala"><span class="k">object</span> <span class="nc">HelloWorldMini</span> <span class="k">extends</span> <span class="nc">App</span> <span class="o">{</span>
+  <span class="n">println</span><span class="o">(</span><span class="s">&#34;¡Hola, mundo!&#34;</span><span class="o">)</span> <span class="c1">//¡Hola, mundo!
+</span><span class="c1"></span><span class="o">}</span>
+</code></pre></div><p><strong>Variables</strong>:
+En Scala las variables pueden ser mutables o inmutables solo difieren en la palabra reservada <strong>var o val</strong> ya apreciamos arriba un ejemplo inmutable veamos una mutable:</p>
+<div class="highlight"><pre class="chroma"><code class="language-scala" data-lang="scala"><span class="k">object</span> <span class="nc">HelloWorldVar</span> <span class="k">extends</span> <span class="nc">App</span> <span class="o">{</span>
+  <span class="c1">// Declaramos una variable mutable vacía de tipo String
+</span><span class="c1"></span>  <span class="k">var</span> <span class="n">value</span><span class="k">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">&#34;&#34;</span>
+  <span class="c1">// Le asignamos un valor
+</span><span class="c1"></span>  <span class="n">value</span> <span class="k">=</span> <span class="s">&#34;mundo&#34;</span>
+  <span class="c1">// Imprimimos el valor y acá podemos ver como usar string interpolation
+</span><span class="c1"></span>  <span class="n">println</span><span class="o">(</span><span class="s">s&#34;¡Hola, </span><span class="si">$value</span><span class="s">!&#34;</span><span class="o">)</span> <span class="c1">//¡Hola, mundo!
+</span><span class="c1"></span><span class="o">}</span>
+</code></pre></div><p><strong>Condicionales</strong>:
+La sentencia <strong>if &hellip; else</strong> es similar a los otros lenguajes con la particularidad que no permite ternarias</p>
+<div class="highlight"><pre class="chroma"><code class="language-scala" data-lang="scala"><span class="k">object</span> <span class="nc">HelloWorldIfElse</span> <span class="k">extends</span> <span class="nc">App</span> <span class="o">{</span>
+  <span class="c1">// Podemos ver como vimos antes que si no ponemos tipo scala lo infiere por nosotros
+</span><span class="c1"></span>  <span class="k">val</span> <span class="n">language</span> <span class="k">=</span> <span class="s">&#34;en&#34;</span>
+
+  <span class="c1">// podemos notar que si no tiene parámetros la función no necesita paréntesis
+</span><span class="c1"></span>  <span class="k">def</span> <span class="n">message</span> <span class="k">=</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">language</span> <span class="o">==</span> <span class="s">&#34;es&#34;</span><span class="o">)</span> <span class="s">&#34;¡Hola, mundo!&#34;</span>
+    <span class="k">else</span> <span class="k">if</span> <span class="o">(</span><span class="n">language</span> <span class="o">==</span> <span class="s">&#34;pt&#34;</span><span class="o">)</span> <span class="s">&#34;¡Olá, mundo!&#34;</span>
+    <span class="k">else</span> <span class="s">&#34;Hello, world!&#34;</span>
+  <span class="o">}</span>
+
+  <span class="n">println</span><span class="o">(</span><span class="n">message</span><span class="o">)</span> <span class="c1">//Hello, world!
+</span><span class="c1"></span><span class="o">}</span>
+</code></pre></div><p>Este mismo ejemplo lo podemos imprimir usando <strong>pattern matching</strong>, viene siendo como el equivalente al <em>switch&hellip;case</em> de java.</p>
+<div class="highlight"><pre class="chroma"><code class="language-scala" data-lang="scala"><span class="k">object</span> <span class="nc">HelloWorldPatternMatching</span> <span class="k">extends</span> <span class="nc">App</span> <span class="o">{</span>
+  <span class="k">val</span> <span class="n">language</span> <span class="k">=</span> <span class="s">&#34;pt&#34;</span>
+
+  <span class="c1">//no hay necesidad de colocar break el rompe donde primero encuentra
+</span><span class="c1"></span>  <span class="k">val</span> <span class="n">message</span> <span class="k">=</span> <span class="n">language</span> <span class="k">match</span> <span class="o">{</span>
+    <span class="k">case</span> <span class="s">&#34;es&#34;</span> <span class="k">=&gt;</span> <span class="s">&#34;¡Hola, mundo!&#34;</span>
+    <span class="k">case</span> <span class="s">&#34;pt&#34;</span> <span class="k">=&gt;</span> <span class="s">&#34;¡Olá, mundo!&#34;</span>
+    <span class="k">case</span> <span class="k">_</span>    <span class="k">=&gt;</span> <span class="s">&#34;Hello, world!&#34;</span>
+  <span class="o">}</span>
+  <span class="n">println</span><span class="o">(</span><span class="n">message</span><span class="o">)</span> <span class="c1">//¡Olá, mundo!
+</span><span class="c1"></span><span class="o">}</span>
+</code></pre></div><p><strong>Bucles o ciclos</strong>:
+Los ciclos se comportan igual como otros lenguajes con la particularidad que se les puede incluir filtros o condicionales internas,
+hay ejemplos como el <strong>for&hellip;yield</strong> que son muy interesantes por la particularidad y legibilidad que aporta para el trabajo con collections y monads</p>
+<div class="highlight"><pre class="chroma"><code class="language-scala" data-lang="scala"><span class="k">object</span> <span class="nc">Numbers</span> <span class="k">extends</span> <span class="nc">App</span> <span class="o">{</span>
+  <span class="c1">// Podemos inicializamos una lista y al mismo tiempo le pre-populamos valores
+</span><span class="c1"></span>  <span class="k">val</span> <span class="n">numbers</span> <span class="k">=</span> <span class="nc">List</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span><span class="mi">2</span><span class="o">,</span><span class="mi">3</span><span class="o">,</span><span class="mi">4</span><span class="o">,</span><span class="mi">5</span><span class="o">)</span>
+
+  <span class="c1">// Recorremos la lista de números y filtramos los pares
+</span><span class="c1"></span>  <span class="k">def</span> <span class="n">pairNumbers</span><span class="k">:</span> <span class="kt">List</span><span class="o">[</span><span class="kt">Int</span><span class="o">]</span> <span class="k">=</span> <span class="k">for</span> <span class="o">{</span>
+    <span class="n">number</span> <span class="k">&lt;-</span> <span class="n">numbers</span> 
+    <span class="k">if</span> <span class="n">number</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span> 
+  <span class="o">}</span> <span class="k">yield</span> <span class="n">number</span>
+  
+  <span class="c1">// Imprimimos el resultado separados por &#34;, &#34; 
+</span><span class="c1"></span>  <span class="n">println</span><span class="o">(</span><span class="n">pairNumbers</span><span class="o">.</span><span class="n">mkString</span><span class="o">(</span><span class="s">&#34;, &#34;</span><span class="o">))</span> <span class="c1">// 2, 4
+</span><span class="c1"></span>  
+  <span class="c1">//Plus: Ejemplo similar usando filter para los impares
+</span><span class="c1"></span>  <span class="n">println</span><span class="o">(</span><span class="n">numbers</span><span class="o">.</span><span class="n">filter</span><span class="o">(</span><span class="k">_</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">!=</span> <span class="mi">0</span><span class="o">).</span><span class="n">mkString</span><span class="o">(</span><span class="s">&#34;, &#34;</span><span class="o">))</span> <span class="c1">// 1, 3, 5  
+</span><span class="c1"></span><span class="o">}</span>
+</code></pre></div><p><strong>Funciones:</strong>
+Con las funciones lo mismo solo cambia palabra reservada <strong>def</strong>, aunque al ser un lenguaje funcional permite pasar otra funciones como parámetros, además de Currying, el uso de los implicitos, o crear funciones como variable, pero eso da para otro post. No obstante presentamos algunos ejemplos sencillos:</p>
+<div class="highlight"><pre class="chroma"><code class="language-scala" data-lang="scala"><span class="k">object</span> <span class="nc">Functions</span> <span class="k">extends</span> <span class="nc">App</span> <span class="o">{</span>
+ <span class="c1">//Existen dos formas de declarar las funciones   
+</span><span class="c1"></span>
+  <span class="c1">// Una función básica y conocida acá como callByValue
+</span><span class="c1"></span>  <span class="k">def</span> <span class="n">sum</span><span class="o">(</span><span class="n">x</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span> <span class="n">y</span><span class="k">:</span> <span class="kt">Int</span><span class="o">)</span> <span class="k">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+  <span class="c1">// Como la invocamos
+</span><span class="c1"></span>  <span class="n">sum</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span><span class="mi">2</span><span class="o">)</span> <span class="c1">// 3
+</span><span class="c1"></span>
+  <span class="c1">// Otra conocida acá como callByName donde pasamos otra función
+</span><span class="c1"></span>  <span class="k">def</span> <span class="n">product</span><span class="o">(</span><span class="n">x</span><span class="k">:</span> <span class="o">=&gt;</span> <span class="nc">Int</span><span class="o">,</span> <span class="n">y</span><span class="k">:</span> <span class="o">=&gt;</span> <span class="nc">Int</span><span class="o">)</span> <span class="k">=</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
+  <span class="c1">// Como la invocamos
+</span><span class="c1"></span>  <span class="k">def</span> <span class="n">two</span><span class="o">()</span> <span class="k">=</span> <span class="mi">2</span>
+  <span class="n">product</span><span class="o">(</span><span class="n">two</span><span class="o">(),</span> <span class="mi">6</span><span class="o">)</span> <span class="c1">// 12
+</span><span class="c1"></span>
+  <span class="c1">// U otro un poco más avanzado donde pasamos una función a ejecutar
+</span><span class="c1"></span>  <span class="c1">// Y además notemos que podemos poner parámetros por default
+</span><span class="c1"></span>  <span class="k">def</span> <span class="n">productF</span><span class="o">(</span><span class="n">f</span><span class="k">:</span> <span class="kt">Int</span> <span class="o">=&gt;</span> <span class="nc">Int</span><span class="o">,</span> <span class="n">x</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span> <span class="n">y</span><span class="k">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">2</span><span class="o">)</span> <span class="k">=</span> <span class="n">f</span><span class="o">(</span><span class="n">x</span> <span class="o">*</span> <span class="n">y</span><span class="o">)</span>
+  <span class="c1">// Como la invocamos
+</span><span class="c1"></span>  <span class="c1">// Definimos una función val 
+</span><span class="c1"></span>  <span class="k">val</span> <span class="n">sum5</span><span class="k">:</span> <span class="kt">Int</span> <span class="o">=&gt;</span> <span class="nc">Int</span> <span class="k">=</span> <span class="n">x</span> <span class="k">=&gt;</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">5</span> <span class="c1">// ó simplemente _ + 5
+</span><span class="c1"></span>  <span class="c1">// Pasamos la misma por parametros
+</span><span class="c1"></span>  <span class="n">productF</span><span class="o">(</span><span class="n">sum5</span><span class="o">,</span> <span class="mi">6</span><span class="o">,</span> <span class="mi">6</span><span class="o">)</span> <span class="c1">// (6 * 6) + 5 = 41
+</span><span class="c1"></span>  <span class="c1">// Invocamos sin el ultimo valor para que tome 2 po default
+</span><span class="c1"></span>  <span class="n">productF</span><span class="o">(</span><span class="n">sum5</span><span class="o">,</span> <span class="mi">5</span><span class="o">)</span> <span class="c1">// (5 * 2) + 5 = 15
+</span><span class="c1"></span>
+
+  <span class="c1">// Podemos pasar como en otros lenguajes un array de parámetros
+</span><span class="c1"></span>  <span class="k">def</span> <span class="n">sumAll</span><span class="o">(</span><span class="n">x</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span> <span class="n">y</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span> <span class="n">others</span><span class="k">:</span> <span class="kt">Int*</span><span class="o">)</span> <span class="k">=</span> <span class="o">{</span>
+     <span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="o">+</span> <span class="n">others</span><span class="o">.</span><span class="n">sum</span>
+  <span class="o">}</span>
+  <span class="c1">// Como la invocamos
+</span><span class="c1"></span>  <span class="n">sumAll</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span><span class="mi">2</span><span class="o">,</span><span class="mi">3</span><span class="o">,</span><span class="mi">4</span><span class="o">,</span><span class="mi">5</span><span class="o">,</span><span class="mi">6</span><span class="o">,</span><span class="mi">7</span><span class="o">,</span><span class="mi">8</span><span class="o">,</span><span class="mi">9</span><span class="o">)</span> <span class="c1">// 45
+</span><span class="c1"></span>  
+
+  <span class="c1">// O podemos implementar el método product con un ejemplo de forma recursiva
+</span><span class="c1"></span>  <span class="k">def</span> <span class="n">productRecursive</span><span class="o">(</span><span class="n">numbers</span><span class="k">:</span> <span class="kt">List</span><span class="o">[</span><span class="kt">Int</span><span class="o">])</span><span class="k">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="n">numbers</span> <span class="k">match</span> <span class="o">{</span> 
+       <span class="k">case</span> <span class="nc">Nil</span> <span class="k">=&gt;</span> <span class="mi">1</span> <span class="c1">// Si la lista es vacía retornamos 1
+</span><span class="c1"></span>       <span class="k">case</span> <span class="n">x</span> <span class="k">:</span><span class="kt">:</span> <span class="kt">tail</span> <span class="o">=&gt;</span> <span class="n">x</span> <span class="o">*</span> <span class="n">productRecursive</span><span class="o">(</span><span class="n">tail</span><span class="o">)</span> <span class="c1">// Sino multiplicamos 
+</span><span class="c1"></span>   <span class="o">}</span> 
+  <span class="n">productRecursive</span><span class="o">(</span><span class="nc">List</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span><span class="mi">2</span><span class="o">,</span><span class="mi">3</span><span class="o">,</span><span class="mi">4</span><span class="o">,</span><span class="mi">5</span><span class="o">))</span> <span class="c1">// 120
+</span><span class="c1"></span>   
+  <span class="c1">//Cerramos con un ejemplo de currying
+</span><span class="c1"></span>  <span class="k">def</span> <span class="n">sumCurrying</span><span class="o">(</span><span class="n">x</span><span class="k">:</span> <span class="kt">Int</span><span class="o">)(</span><span class="n">y</span><span class="k">:</span> <span class="kt">Int</span><span class="o">)</span><span class="k">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span> 
+  <span class="c1">// Como la invocamos
+</span><span class="c1"></span>  <span class="n">sumCurrying</span><span class="o">(</span><span class="mi">1</span><span class="o">)(</span><span class="mi">2</span><span class="o">)</span> <span class="c1">// 3
+</span><span class="c1"></span>  <span class="c1">// Pero podemos entonces almacenar una suma parcial en una variable
+</span><span class="c1"></span>  <span class="k">val</span> <span class="n">sum2</span> <span class="k">=</span> <span class="n">sumCurrying</span><span class="o">(</span><span class="mi">2</span><span class="o">)</span> <span class="k">_</span>
+  <span class="c1">// y luego invocarla con ese adelanto
+</span><span class="c1"></span>  <span class="n">sum2</span><span class="o">(</span><span class="mi">3</span><span class="o">)</span> <span class="c1">// 5
+</span><span class="c1"></span>  
+   
+  <span class="c1">//O que el segundo parámetro se inplicito de un contexto particular
+</span><span class="c1"></span>  <span class="k">def</span> <span class="n">productCurrying</span><span class="o">(</span><span class="n">x</span><span class="k">:</span> <span class="kt">Int</span><span class="o">)(</span><span class="k">implicit</span> <span class="n">y</span><span class="k">:</span> <span class="kt">Int</span><span class="o">)</span><span class="k">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span> 
+  <span class="c1">// Definimos el implicito
+</span><span class="c1"></span>  <span class="k">implicit</span> <span class="k">val</span> <span class="n">number3</span><span class="k">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">3</span>
+  <span class="c1">// Ahora consumimos con un solo parámetro y el otro lo encontrará y usará number3  
+</span><span class="c1"></span>  <span class="n">productCurrying</span><span class="o">(</span><span class="mi">5</span><span class="o">)</span> <span class="c1">// 15
+</span><span class="c1"></span><span class="o">}</span>
+</code></pre></div><p>Además scala posee <strong>clases</strong> que se le puede crear instancias para tipico uso de POO, cuenta con <strong>case class</strong> que son clases inmutales las cuales exportan sus parámetros constructores, implementan por default el .equals y .toString, permiten usar el muy útil metodo copy y mucho más &hellip; pero dejemos espacio para otros posts.</p>
+<h4 id="usos-destacados-actuales">Usos Destacados Actuales</h4>
+<p>En los últimos años viene experimentado un crecimiento espectacular y ha pasado a convertirse en un estándar para muchas
+empresas, startups y universidades de todo el mundo.</p>
+<p>Además no solo utilizan Scala para crear sus nuevos proyectos, sino también para otras herramientas de gran impacto en el mercado como los Frameworks:</p>
+<ul>
+<li><a href="https://www.playframework.com/">Play Framework</a> -&gt; Un framework de alta velocidad para el desarrollo con Java y Scala.</li>
+<li><a href="https://spark.apache.org/">Apache Spark</a> -&gt; Motor de análisis para el procesamiento de datos a gran escala.</li>
+<li><a href="https://akka.io/">Akka</a> -&gt; Framework para aplicaciones reactivas, concurrentes y distribuidas con mayor facilidad.</li>
+<li><a href="https://kafka.apache.org/">Apache Kafka</a> -&gt; Herramienta para construir canalizaciones de datos y aplicaciones de transmisión en tiempo real.</li>
+</ul>
+<p>&hellip; O grandes librerías que promueven y hacen que sea más fácil la programación funcional, por mencionar algunas:</p>
+<ul>
+<li><a href="https://typelevel.org/cats">Cats</a> -&gt; Librería ligera, modular y extensible para programación funcional.</li>
+<li><a href="https://scalaz.github.io/">Scalaz</a> -&gt; Conjunto de estructuras puramente funcionales para complementar las de Scala.</li>
+<li><a href="https://magnolia.work/opensource/magnolia">Magnolia</a> -&gt; Una Macro genérica para la materialización automática de clases de tipos para tipos de datos compuestos.</li>
+<li><a href="https://zio.dev/">ZIO</a> -&gt; Este último creando un amplio y potente ecosistema que va a hacer en mi opinión más interesante Scala en el futuro.</li>
+</ul>
+<p>¡Además de muchísimos más proyectos open source para acceso a datos, comunicación entre APIs, que favorece con creces que los nuevos y actuales seguidores vean aún más, la potencia de este hermoso lenguaje y confirmen lo interesante que es!</p>
+<h3 id="que-libros-se-recomiendan-para-empezar">Que libros se recomiendan para empezar:</h3>
+<ul>
+<li><a href="https://www.amazon.com/Programming-Scala-Comprehensive-Step-Step-ebook/dp/B004Z1FTXS/ref=sr_1_3?dchild=1&amp;keywords=Programming+in+Scala%3A+A+comprehensive+Step-by-Step+Scala+Programming+Guide&amp;qid=1587963475&amp;s=books&amp;sr=1-3">Programming in Scala: A comprehensive Step-by-Step Guide</a> por Martin Odersky, Lex Spoon, Bill Venners</li>
+<li><a href="https://www.amazon.com/-/es/Cay-S-Horstmann-ebook/dp/B01MR67YSO/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=Scala+for+the+Impatient&amp;qid=1587963619&amp;s=books&amp;sr=1-1">Scala for the Impatient</a> por Cay Hortsmann</li>
+<li><a href="https://www.amazon.com/-/es/Alvin-Alexander-ebook/dp/B00EA66OM8/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=Scala+Cookbook&amp;qid=1587963666&amp;s=books&amp;sr=1-1">Scala Cookbook</a> por Alvin Alexander</li>
+<li><a href="https://www.amazon.com/-/es/Mark-C-Lewis-ebook/dp/B00AR3E2ZY/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=Introduction+to+the+Art+of+Programming+Using+Scala&amp;qid=1587963691&amp;s=books&amp;sr=1-1">Introduction to the Art of Programming Using Scala</a> por Mark C. Lewis</li>
+<li><a href="https://www.amazon.com/-/es/dp/B07MDLD48D/ref=sr_1_1?dchild=1&amp;keywords=Functional+Programming+in+Scala&amp;qid=1587963785&amp;s=books&amp;sr=1-1">Functional Programming in Scala</a> por Paul Chiusano and Rúnar Bjarnason</li>
+</ul>
+<h3 id="referencias-y-otros-links-de-interés">Referencias y otros links de interés:</h3>
+<ul>
+<li>Scala Lang: <a href="https://www.scala-lang.org/">https://www.scala-lang.org/</a></li>
+<li>ScalaDays Blog: <a href="https://blog.scaladays.org/">https://blog.scaladays.org/</a></li>
+<li>Scala Times Blog: <a href="https://scalatimes.com/">https://scalatimes.com/</a></li>
+<li>SoftwareMill Blog: <a href="https://blog.softwaremill.com/tagged/scala">https://blog.softwaremill.com/tagged/scala</a></li>
+<li>Alvin Alexander / Scala: <a href="https://alvinalexander.com/scala">https://alvinalexander.com/scala</a></li>
+<li>Fragmentos del código: <a href="https://github.com/rodobarcaaa/scala-blog-snippets/blob/main/src/main/scala/com/rodobarcaaa/Post1Intro.scala">Post1Intro.scala</a></li>
+</ul>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://rodobarcaaa.github.io/es/tags/scala/">scala</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2frodobarcaaa.github.io%2fes%2fpost%2fscala-intro%2f&amp;text=%c2%bfPor%20qu%c3%a9%20Scala%3f&amp;via=rodobarcaaa" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frodobarcaaa.github.io%2fes%2fpost%2fscala-intro%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2frodobarcaaa.github.io%2fes%2fpost%2fscala-intro%2f&amp;title=%c2%bfPor%20qu%c3%a9%20Scala%3f" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2frodobarcaaa.github.io%2fes%2fpost%2fscala-intro%2f&amp;title=%c2%bfPor%20qu%c3%a9%20Scala%3f" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2frodobarcaaa.github.io%2fes%2fpost%2fscala-intro%2f&amp;title=%c2%bfPor%20qu%c3%a9%20Scala%3f" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2frodobarcaaa.github.io%2fes%2fpost%2fscala-intro%2f&amp;description=%c2%bfPor%20qu%c3%a9%20Scala%3f" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">Ver también</h4>
+                  <ul>
+                
+                
+                    <li><a href="/es/post/case-class/">¡Class, Case Class y sus secretos!</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+          
+            <li class="next">
+              <a href="https://rodobarcaaa.github.io/es/post/case-class/" data-toggle="tooltip" data-placement="top" title="¡Class, Case Class y sus secretos!">Artículo siguiente &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:rodobarcaaa@gmail.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/rodobarcaaa" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/rodobarcaaa" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/rechemendia" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="rodobarcaaa.github.io">Rodolfo Echemendía Quintana</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2021
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://rodobarcaaa.github.io/es/">Rodolfo&#39;s blog</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.68.3</a> alimentada &nbsp;&bull;&nbsp; Tema <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adaptado de <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://rodobarcaaa.github.io/js/main.js"></script>
+<script src="https://rodobarcaaa.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://rodobarcaaa.github.io/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

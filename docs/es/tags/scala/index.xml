@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scala on Rodolfo&#39;s blog</title>
+    <link>https://rodobarcaaa.github.io/es/tags/scala/</link>
+    <description>Recent content in scala on Rodolfo&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</managingEditor>
+    <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster>
+    <lastBuildDate>Fri, 30 Apr 2021 08:51:49 -0300</lastBuildDate>
+    
+	<atom:link href="https://rodobarcaaa.github.io/es/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>¡Class, Case Class y sus secretos!</title>
+      <link>https://rodobarcaaa.github.io/es/post/case-class/</link>
+      <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate>
+      <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
+      <guid>https://rodobarcaaa.github.io/es/post/case-class/</guid>
+      <description>Como ya sabemos del artículo anterior ¿Porque Scala, que es y tiene de interesante?, Scala es lenguaje de programación que combina la programación orientada a objetos y funcional, pues hoy veremos las class y case class, como usarlas, algunos secretos de las case class y porque son las favoritas para el uso en el día a día.
+¿Que son las Clases? Al igual que otros lenguajes de programación, una clase es una plantilla que define la forma de un objeto; pueden contener valores, variables, tipos y métodos que mayormente operan sobre estos.</description>
+    </item>
+    
+    <item>
+      <title>¿Por qué Scala?</title>
+      <link>https://rodobarcaaa.github.io/es/post/scala-intro/</link>
+      <pubDate>Wed, 28 Apr 2021 08:51:49 -0300</pubDate>
+      <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
+      <guid>https://rodobarcaaa.github.io/es/post/scala-intro/</guid>
+      <description>¿Qué es Scala? Scala es un lenguaje open source creado por Martin Odersky, por concepto es un lenguaje multi-paradigma de propósito general, que combina programación orientada a objetos y funcional en un lenguaje de alto nivel y con tipos seguros. Gracias a sus tipos estáticos ayuda evitar errores en aplicaciones muy complejas. Es ejecutado en la JVM, además se integra con JavaScript, permite construir sistemas de alto rendimiento y con fácil acceso a enormes ecosistemas de librerías.</description>
+    </item>
+    
+  </channel>
+</rss>

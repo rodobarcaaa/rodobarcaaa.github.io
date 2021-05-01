@@ -1,6 +1,7 @@
 baseurl = "https://rodobarcaaa.github.io"
 publishDir = "docs"
 DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
 title = "Rodolfo's blog"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
@@ -13,55 +14,72 @@ pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
-[Params]
-#homeTitle = "..."
-subtitle = "My personal technology blog"
-mainSections = ["post"]
-logo = "img/profile.jpeg" # Expecting square dimensions
-favicon = "img/favicon.ico"
-dateFormat = "January 2, 2006"
-commit = false
-rss = true
-comments = true
-readingTime = true
-wordCount = false
-useHLJS = true
-socialShare = true
-delayDisqus = true
-showRelatedPosts = true
-hideAuthor = true
+[params]
+  #homeTitle = "..."
+  subtitle = "My personal technology blog"
+  mainSections = ["post"]
+  logo = "img/profile.jpeg" # Expecting square dimensions
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = false
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+  hideAuthor = true
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
-[[Params.bigimg]]
-  src = "img/triangle.jpg"
-#  desc = "Triangle"
-[[Params.bigimg]]
-  src = "img/sphere.jpg"
-#  desc = "Sphere"
-  position = "center top"
-[[Params.bigimg]]
-  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  position = "center top"
 
 [Author]
-name = "Rodolfo Echemendía Quintana"
-website = "rodobarcaaa.github.io"
-email = "rodobarcaaa@gmail.com"
-github = "rodobarcaaa"
-twitter = "rodobarcaaa"
-linkedin = "rechemendia"
+  name = "Rodolfo Echemendía Quintana"
+  website = "rodobarcaaa.github.io"
+  email = "rodobarcaaa@gmail.com"
+  github = "rodobarcaaa"
+  twitter = "rodobarcaaa"
+  linkedin = "rechemendia"
 
-[[menu.main]]
-name = "Blog"
-url = ""
-weight = 1
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+  [[languages.en.menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+  [[languages.en.menu.main]]
+    name = "About me"
+    url = "page/about/"
+    weight = 3
+  [[languages.en.menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+  [[languages.en.params.bigimg]]
+    src = "img/sphere.jpg"
+    position = "center top"
 
-[[menu.main]]
-name = "About"
-url = "page/about/"
-weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "tags"
-weight = 3
+[languages.es]
+    contentDir = "content/es"
+    languageName = "Español"
+  [[languages.es.menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+  [[languages.es.menu.main]]
+    name = "Sobre Mi"
+    url = "page/about/"
+    weight = 3
+  [[languages.es.menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+  [[languages.es.params.bigimg]]
+    src = "img/sphere.jpg"
+    position = "center top"
