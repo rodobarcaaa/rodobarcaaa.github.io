@@ -25,4 +25,4 @@ def profile(): Unit = {
 
 Experienced software engineer working in the technology industry. Skilled in **Scala** to develop web products, back-end mainly, such as web services **REST** and **GraphQL**, connections to databases, and interaction with third parties. In addition to being a team leader with good management and interpersonal skills, currently in charge of project planning and adoption of new technologies of the [Travelonux](https://www.travelonux.com/) team.
 
-#### You can also see here: [online-cv](https://rodobarcaaa.github.io/online-cv/)
+##### You can also see here: [online-cv](https://rodobarcaaa.github.io/online-cv/)
