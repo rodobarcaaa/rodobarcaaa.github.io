@@ -15,7 +15,7 @@ pygmentOptions = "linenos=inline"
 
 [params]
   mainSections = ["post"]
-  logo = "img/profile.jpeg" # Expecting square dimensions
+  logo = "img/profile.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
