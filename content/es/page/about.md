@@ -5,27 +5,27 @@ comments: false
 ---
 
 ```scala
-def perfil(): Unit = {
-  val educación    = """👨‍🎓 Ingeniero en Ciencias Informáticas (Cuba-UCI / Graduación 2011)"""
-  val preguntameSobre   = ("tecnología", "desarrollo web", "futbol")
-  val tecnologías = for {
-    backEnd   <- {
+def profile = {
+  val pronouns     = "He" -> "Him"
+  val education    = """👨‍🎓 Computer Science Engineer's (Cuba-UCI / Class of 2011)"""
+  val blogUrl      = "https://rodobarcaaa.github.io/"
+  val askMeAbout   = ("tech", "webdev", "soccer")
+  val technologies = for {
+    backend   <- {
+      val java   = "My first programming language!"
       val scala  = List("Play", "Slick", "Tapir", "Sangria", "Cats")
-      val python = "Learning FastApi"
-      scala :+ python
+      val python = "Learning FastApi!⚡"
+      val node   = "Learning NestJs!"
+      java +: scala :+ python :+ node
     }
-    databases <- List("MySQL", "PostgreSQL", "Redis", "MongoDB")
-    devOps    <- List("Docker", "AWS", "CI/CD", "Github Actions")
-    frontEnd  <- List("HTML", "CSS", "JS", "TS", "Learning ReactJS")
-  } yield println(List(backEnd, databases, devOps, frontEnd).mkString(", "))
+    database  <- List("MySQL", "PostgreSQL", "Redis", "MongoDB")
+    devops    <- List("Docker", "AWS", "CI/CD", "Github Actions")
+  } yield println(List(backend, database, devops).mkString(" - "))
 }
 ```
 
 ### Resumen
 
-Ingeniero de software experimentado que trabaja en la industria de la tecnología. Experto en **Scala** para desarrollar productos web,
-back-end principalmente, como servicios web **REST** y **GraphQL**, conexiones a bases de datos e interacción con terceros.
-Además de ser un líder de equipo con buena gestión y habilidades interpersonales, actualmente a cargo de la planificación de proyectos
-y adopción de nuevas tecnologías del equipo de [Travelonux](https://www.travelonux.com/).
+Ingeniero de software con amplia experiencia trabajando en la industria de la tecnología. Con habilidades para desarrollar productos web, principalmente BackEnd, como servicios web REST y GraphQL, conexiones a bases de datos e interacción con terceros. Además de ser un lider de equipo con buena administración y habilidades de comunicación.
 
 ##### Además puedes ver más acá: [es-online-cv](https://rodobarcaaa.github.io/es-online-cv/)

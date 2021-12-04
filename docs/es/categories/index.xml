@@ -6,10 +6,6 @@
     <description>Recent content in Categories on Blog de Rodolfo</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</managingEditor>
-    <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster>
-    
-	<atom:link href="https://rodobarcaaa.github.io/es/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster><atom:link href="https://rodobarcaaa.github.io/es/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
