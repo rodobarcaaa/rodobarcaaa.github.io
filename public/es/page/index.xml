@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Blog de Rodolfo</title>
+    <link>https://rodobarcaaa.github.io/es/page/</link>
+    <description>Recent content in Pages on Blog de Rodolfo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</managingEditor>
+    <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster><atom:link href="https://rodobarcaaa.github.io/es/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sobre mi</title>
+      <link>https://rodobarcaaa.github.io/es/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
+      <guid>https://rodobarcaaa.github.io/es/page/about/</guid>
+      <description>Resumen Ingeniero de software con amplia experiencia trabajando en la industria de la tecnología. Con habilidades para desarrollar productos web, principalmente BackEnd, como servicios web REST y GraphQL, conexiones a bases de datos e interacción con terceros. Además de ser un lider de equipo con buena administración y habilidades de comunicación.
+def profile = { val pronouns = &amp;#34;He&amp;#34; -&amp;gt; &amp;#34;Him&amp;#34; val education = &amp;#34;&amp;#34;&amp;#34;👨‍🎓 Computer Science Engineer&amp;#39;s (Cuba-UCI / Class of 2011)&amp;#34;&amp;#34;&amp;#34; val blogUrl = &amp;#34;https://rodobarcaaa.</description>
+    </item>
+    
+  </channel>
+</rss>
