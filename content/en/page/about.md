@@ -3,6 +3,10 @@ title: About me
 subtitle: Rodolfo Echemendía Quintana
 comments: false
 ---
+### Resume
+
+Experienced software engineer working in the technology industry. Skilled in Scala to develop web products, back-end mainly, such as web services REST and GraphQL, connections to databases, and interaction with third parties. In addition to being a team leader with good management and interpersonal skills.
+
 
 ```scala
 def profile = {
@@ -23,9 +27,5 @@ def profile = {
   } yield println(List(backend, database, devops).mkString(" - "))
 }
 ```
-
-### Resume
-
-Experienced software engineer working in the technology industry. Skilled in Scala to develop web products, back-end mainly, such as web services REST and GraphQL, connections to databases, and interaction with third parties. In addition to being a team leader with good management and interpersonal skills.
 
 ##### You can also see here: [online-cv](https://rodobarcaaa.github.io/online-cv/)

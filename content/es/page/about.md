@@ -4,6 +4,10 @@ subtitle: Rodolfo Echemendía Quintana
 comments: false
 ---
 
+### Resumen
+
+Ingeniero de software con amplia experiencia trabajando en la industria de la tecnología. Con habilidades para desarrollar productos web, principalmente BackEnd, como servicios web REST y GraphQL, conexiones a bases de datos e interacción con terceros. Además de ser un lider de equipo con buena administración y habilidades de comunicación.
+
 ```scala
 def profile = {
   val pronouns     = "He" -> "Him"
@@ -23,9 +27,5 @@ def profile = {
   } yield println(List(backend, database, devops).mkString(" - "))
 }
 ```
-
-### Resumen
-
-Ingeniero de software con amplia experiencia trabajando en la industria de la tecnología. Con habilidades para desarrollar productos web, principalmente BackEnd, como servicios web REST y GraphQL, conexiones a bases de datos e interacción con terceros. Además de ser un lider de equipo con buena administración y habilidades de comunicación.
 
 ##### Además puedes ver más acá: [es-online-cv](https://rodobarcaaa.github.io/es-online-cv/)
