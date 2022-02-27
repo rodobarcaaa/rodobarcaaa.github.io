@@ -16,11 +16,12 @@ def profile = {
   val askMeAbout   = ("tech", "webdev", "soccer")
   val technologies = for {
     backend   <- {
-      val java   = "My first programming language!"
-      val scala  = List("Play", "Slick", "Tapir", "Sangria", "Cats")
-      val python = "Learning FastApi!⚡"
-      val node   = "Learning NestJs!"
-      java +: scala :+ python :+ node
+      val java            = "My first programming language!"
+      val scalaFuture     = List("Play-Framework", "Tapir", "Sangria", "Slick")
+      val scalaFunctional = List("Http4s", "Tapir", "Cats", "Cats-Effect", "Monix-Task")
+      val python          = "Learning FastApi!⚡"
+      val node            = "Learning NestJs!𓃠"
+      java +: scalaFuture :+ scalaFunctional :+ python :+ node
     }
     database  <- List("MySQL", "PostgreSQL", "Redis", "MongoDB")
     devops    <- List("Docker", "AWS", "CI/CD", "Github Actions")
