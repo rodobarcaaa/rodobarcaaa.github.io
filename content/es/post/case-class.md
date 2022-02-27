@@ -47,7 +47,7 @@ ejemplo de clase con constructor de parámetros:
 Como podemos ver esta clase Vehículo tiene **4 miembros**: las variables **passengers, speed y unit** que se pueden editar, el método **toString**,
 a diferencia de otros lenguajes, el constructor principal está en la firma de la clase y no posteriormente. Los constructores como los
 métodos también pueden tomar un valor predeterminado, definir las variables mutables o inmutables como ya vimos en el ejemplo anterior
-y privadas o publicas como veremos a continuación:
+y privadas o públicas como veremos a continuación:
 
 
 ```scala

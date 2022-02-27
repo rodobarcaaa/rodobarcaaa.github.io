@@ -14,8 +14,8 @@
       <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate>
       <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
       <guid>https://rodobarcaaa.github.io/en/post/case-class/</guid>
-      <description>Como ya sabemos del artículo anterior ¿Porque Scala, que es y tiene de interesante?, Scala es lenguaje de programación que combina la programación orientada a objetos y funcional, pues hoy veremos las class y case class, como usarlas, algunos secretos de las case class y porque son las favoritas para el uso en el día a día.
-¿Que son las Clases? Al igual que otros lenguajes de programación, una clase es una plantilla que define la forma de un objeto; pueden contener valores, variables, tipos y métodos que mayormente operan sobre estos.</description>
+      <description>As we already know from the previous article Why Scala, what is it and what is interesting about it?, Scala is a programming language that combines object-oriented and functional programming, then today we will see the class and case class, how to use them, some secrets of the case class and why they are the favorites for everyday use.
+What are Classes? Like other programming languages, a class is a template that defines an object; can contain values, variables, types, and methods that mostly operate on them.</description>
     </item>
     
     <item>

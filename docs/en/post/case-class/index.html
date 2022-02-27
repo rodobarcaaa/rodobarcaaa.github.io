@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>Class, Case Class, and their secrets! - Rodolfo&#39;s blog</title>
-  <meta name="description" content="Como ya sabemos del artículo anterior ¿Porque Scala, que es y tiene de interesante?, Scala es lenguaje de programación que combina la programación orientada a objetos y funcional, pues hoy veremos las class y case class, como usarlas, algunos secretos de las case class y porque son las favoritas para el uso en el día a día.
-¿Que son las Clases? Al igual que otros lenguajes de programación, una clase es una plantilla que define la forma de un objeto; pueden contener valores, variables, tipos y métodos que mayormente operan sobre estos.">
+  <meta name="description" content="As we already know from the previous article Why Scala, what is it and what is interesting about it?, Scala is a programming language that combines object-oriented and functional programming, then today we will see the class and case class, how to use them, some secrets of the case class and why they are the favorites for everyday use.
+What are Classes? Like other programming languages, a class is a template that defines an object; can contain values, variables, types, and methods that mostly operate on them.">
   <meta name="author" content="Rodolfo Echemendía Quintana"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -58,9 +58,9 @@
     "name" : "Rodolfo Echemendía Quintana"
   },
   "headline": "Class, Case Class, and their secrets!",
-  "description" : "Como ya sabemos del artículo anterior ¿Porque Scala, que es y tiene de interesante?, Scala es lenguaje de programación que combina la programación orientada a objetos y funcional, pues hoy veremos las class y case class, como usarlas, algunos secretos de las case class y porque son las favoritas para el uso en el día a día.\n¿Que son las Clases? Al igual que otros lenguajes de programación, una clase es una plantilla que define la forma de un objeto; pueden contener valores, variables, tipos y métodos que mayormente operan sobre estos.",
+  "description" : "As we already know from the previous article Why Scala, what is it and what is interesting about it?, Scala is a programming language that combines object-oriented and functional programming, then today we will see the class and case class, how to use them, some secrets of the case class and why they are the favorites for everyday use.\nWhat are Classes? Like other programming languages, a class is a template that defines an object; can contain values, variables, types, and methods that mostly operate on them.",
   "inLanguage" : "en",
-  "wordCount":  1065 ,
+  "wordCount":  1028 ,
   "datePublished" : "2021-04-30T08:51:49",
   "dateModified" : "2021-04-30T08:51:49",
   "image" : "https:\/\/rodobarcaaa.github.io\/img\/profile.png",
@@ -80,15 +80,15 @@
 </script>
 
 <meta property="og:title" content="Class, Case Class, and their secrets!" />
-<meta property="og:description" content="Como ya sabemos del artículo anterior ¿Porque Scala, que es y tiene de interesante?, Scala es lenguaje de programación que combina la programación orientada a objetos y funcional, pues hoy veremos las class y case class, como usarlas, algunos secretos de las case class y porque son las favoritas para el uso en el día a día.
-¿Que son las Clases? Al igual que otros lenguajes de programación, una clase es una plantilla que define la forma de un objeto; pueden contener valores, variables, tipos y métodos que mayormente operan sobre estos.">
+<meta property="og:description" content="As we already know from the previous article Why Scala, what is it and what is interesting about it?, Scala is a programming language that combines object-oriented and functional programming, then today we will see the class and case class, how to use them, some secrets of the case class and why they are the favorites for everyday use.
+What are Classes? Like other programming languages, a class is a template that defines an object; can contain values, variables, types, and methods that mostly operate on them.">
 <meta property="og:image" content="https://rodobarcaaa.github.io/img/profile.png" />
 <meta property="og:url" content="https://rodobarcaaa.github.io/en/post/case-class/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Rodolfo&#39;s blog" />
 
   <meta name="twitter:title" content="Class, Case Class, and their secrets!" />
-  <meta name="twitter:description" content="Como ya sabemos del artículo anterior ¿Porque Scala, que es y tiene de interesante?, Scala es lenguaje de programación que combina la programación orientada a objetos y funcional, pues hoy veremos las …">
+  <meta name="twitter:description" content="As we already know from the previous article Why Scala, what is it and what is interesting about it?, Scala is a programming language that combines object-oriented and functional programming, then …">
   <meta name="twitter:image" content="https://rodobarcaaa.github.io/img/profile.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@rodobarcaaa" />
@@ -274,24 +274,22 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>Como ya sabemos del artículo anterior <a href="https://rodobarcaaa.github.io/art%C3%ADculos/scala/">¿Porque Scala, que es y tiene de interesante?</a>,
-Scala es lenguaje de programación que combina la programación orientada a objetos y funcional, pues hoy veremos las <strong>class y case class</strong>,
-como usarlas, algunos secretos de las <strong>case class</strong> y porque son las favoritas para el uso en el día a día.</p>
-<h2 id="que-son-las-clases">¿Que son las Clases?</h2>
-<p>Al igual que otros lenguajes de programación, una clase es una plantilla que define la forma de un objeto; pueden contener valores,
-variables, tipos y métodos que mayormente operan sobre estos. En Scala, una clase se define con la palabra reservada <strong>class</strong> y
-un identificador o nombre que comience con Mayúsculas y describa la misma. Veamos un ejemplo:</p>
+        <p>As we already know from the previous article <a href="https://rodobarcaaa.github.io/art%C3%ADculos/scala/">Why Scala, what is it and what is interesting about it?</a>,
+Scala is a programming language that combines object-oriented and functional programming, then today we will see the <strong>class and case class</strong>,
+how to use them, some secrets of the <strong>case class</strong> and why they are the favorites for everyday use.</p>
+<h2 id="what-are-classes">What are Classes?</h2>
+<p>Like other programming languages, a class is a template that defines an object; can contain values, variables, types, and methods that mostly operate on them. In Scala, a class is defined with the keyword <strong>class</strong> and
+an identifier or name to describe it. Let&rsquo;s see an example:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala"><span class="k">class</span> <span class="nc">MyFirstClass</span>
 
 <span class="k">val</span> <span class="n">x</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">MyFirstClass</span>  
-</code></pre></div><p>La palabra reservada del lenguaje <strong>new</strong> se usa para crear una instancia de la clase. <strong>MyFirstClass</strong> tiene un constructor predeterminado que
-no toma argumentos porque no se define en ella otro constructor. Pero, a menudo queremos un constructor y un cuerpo en cada clase. Veamos otro
-ejemplo de clase con constructor de parámetros:</p>
+</code></pre></div><p>The language keyword <strong>new</strong> is used to create an instance of the class. <strong>MyFirstClass</strong> has a default constructor that
+don&rsquo;t take arguments. But, we often want a constructor and a body in each class to give properties and behavior. Let&rsquo;s see another example with parameters constructor:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala">  <span class="k">class</span> <span class="nc">Vehicle</span><span class="o">(</span>
-      <span class="k">var</span> <span class="n">passengers</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span> <span class="c1">//número de pasajeros
-</span><span class="c1"></span>      <span class="k">var</span> <span class="n">speed</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span>      <span class="c1">//velocidad
-</span><span class="c1"></span>      <span class="k">val</span> <span class="n">unit</span><span class="k">:</span> <span class="kt">String</span>     <span class="c1">//unidad de velocidad
-</span><span class="c1"></span>  <span class="o">)</span> <span class="o">{</span>
+      <span class="k">var</span> <span class="n">passengers</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span> 
+      <span class="k">var</span> <span class="n">speed</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span>      
+      <span class="k">val</span> <span class="n">unit</span><span class="k">:</span> <span class="kt">String</span>     
+  <span class="o">)</span> <span class="o">{</span>
     <span class="k">override</span> <span class="k">def</span> <span class="n">toString</span><span class="k">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">s&#34;(passengers: </span><span class="si">$passengers</span><span class="s">, speed: </span><span class="si">$speed</span><span class="s"> </span><span class="si">$unit</span><span class="s">)&#34;</span>
   <span class="o">}</span>
 
@@ -299,16 +297,16 @@ ejemplo de clase con constructor de parámetros:</p>
   <span class="n">bicycle</span><span class="o">.</span><span class="n">passengers</span> <span class="c1">// 1
 </span><span class="c1"></span>  <span class="n">bicycle</span><span class="o">.</span><span class="n">passengers</span> <span class="k">=</span> <span class="mi">2</span> 
   <span class="n">bicycle</span><span class="o">.</span><span class="n">passengers</span> <span class="c1">// 2
-</span><span class="c1"></span>  <span class="n">println</span><span class="o">(</span><span class="n">bicycle</span><span class="o">)</span> <span class="c1">// (passengers: 2, speed: 30 km)
-</span></code></pre></div><p>Como podemos ver esta clase Vehículo tiene <strong>4 miembros</strong>: las variables <strong>passengers, speed y unit</strong> que se pueden editar, el método <strong>toString</strong>,
-a diferencia de otros lenguajes, el constructor principal está en la firma de la clase y no posteriormente. Los constructores como los
-métodos también pueden tomar un valor predeterminado, definir las variables mutables o inmutables como ya vimos en el ejemplo anterior
-y privadas o publicas como veremos a continuación:</p>
+</span><span class="c1"></span>  <span class="n">println</span><span class="o">(</span><span class="n">bicycle</span><span class="o">)</span>   <span class="c1">// (passengers: 2, speed: 30 km)
+</span></code></pre></div><p>As we can see, this Vehicle class has <strong>4 members</strong>: the variables <strong>passengers, speed and unit</strong> that can be edited, the method <strong>toString</strong>,
+unlike other languages, the main constructor is in the class signature and not after. builders like
+methods can also take a default value, define mutable or immutable variables as we saw in the <a href="https://rodobarcaaa.github.io/art%C3%ADculos/scala/">previous example</a>
+and private or public as we will see below:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala">  <span class="k">class</span> <span class="nc">Vehicle1</span><span class="o">(</span>
-      <span class="k">var</span> <span class="n">passengers</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span>            <span class="c1">//número de pasajeros
-</span><span class="c1"></span>      <span class="k">private</span> <span class="k">val</span> <span class="n">speed</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span>         <span class="c1">//ó simplemente speed: Int
-</span><span class="c1"></span>      <span class="k">private</span> <span class="k">val</span> <span class="n">unit</span><span class="k">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">&#34;km&#34;</span> <span class="c1">//ó simplemente val unit: String
-</span><span class="c1"></span>  <span class="o">)</span> <span class="o">{</span>
+      <span class="k">var</span> <span class="n">passengers</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span>            
+      <span class="k">private</span> <span class="k">val</span> <span class="n">speed</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span>         
+      <span class="k">private</span> <span class="k">val</span> <span class="n">unit</span><span class="k">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">&#34;km&#34;</span> 
+  <span class="o">)</span> <span class="o">{</span>
     <span class="k">val</span> <span class="n">speedDescription</span><span class="k">:</span> <span class="kt">String</span>  <span class="o">=</span> <span class="s">s&#34;</span><span class="si">$speed</span><span class="s"> </span><span class="si">$unit</span><span class="s">&#34;</span>
     <span class="k">override</span> <span class="k">def</span> <span class="n">toString</span><span class="k">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">s&#34;(passengers: </span><span class="si">$passengers</span><span class="s">, speed: </span><span class="si">$speedDescription</span><span class="s">)&#34;</span>
   <span class="o">}</span>
@@ -319,73 +317,72 @@ y privadas o publicas como veremos a continuación:</p>
 
   <span class="k">val</span> <span class="n">motorcycle</span> <span class="k">=</span> <span class="k">new</span> <span class="nc">Vehicle1</span><span class="o">(</span><span class="mi">2</span><span class="o">,</span> <span class="mi">100</span><span class="o">)</span>
   <span class="n">motorcycle</span><span class="o">.</span><span class="n">passengers</span>       <span class="c1">// 2
-</span><span class="c1"></span>  <span class="n">motorcycle</span><span class="o">.</span><span class="n">speed</span>            <span class="c1">// no compila no tiene acceso atributo privado
+</span><span class="c1"></span>  <span class="n">motorcycle</span><span class="o">.</span><span class="n">speed</span>            <span class="c1">// don&#39;t compile because the attribute is private
 </span><span class="c1"></span>  <span class="n">motorcycle</span><span class="o">.</span><span class="n">speedDescription</span> <span class="c1">// 100 km
 </span><span class="c1"></span>  <span class="n">println</span><span class="o">(</span><span class="n">motorcycle</span><span class="o">)</span>         <span class="c1">// (passengers: 2, speed: 100 km)
 </span><span class="c1"></span>
   <span class="k">val</span> <span class="n">car</span><span class="k">:</span> <span class="kt">Vehicle1</span> <span class="o">=</span> <span class="nc">Vehicle1</span><span class="o">.</span><span class="n">speed220km</span><span class="o">(</span><span class="mi">5</span><span class="o">)</span>
   <span class="n">println</span><span class="o">(</span><span class="n">car</span><span class="o">)</span> <span class="c1">// (passengers: 5, speed: 220 km)
-</span></code></pre></div><p>En este último fragmento podemos ver un objeto acompañante donde podemos definir otros constructores predeterminados como el de crear un vehículo
-de velocidad 220 km, cabe decir que también se pueden sobre-escribir constructores internos pero no mostramos ningún ejemplo pues la verdad tampoco se usa
-tanto como en otros lenguajes, de hecho, muchas publicaciones aconsejan escribir el código lo más funcional posible, y para eso recomiendan crear
-sus atributos de clase como <strong>val</strong> o también usar <strong>case class</strong> que ya vamos a explicar a continuación.</p>
-<h2 id="que-son-las-case-clases">¿Que son las Case Clases?</h2>
-<p>Una <strong>case class</strong> es una clase con todas sus funcionalidades y más, cuando el compilador de Scala ver la palabra reservada &ldquo;case&rdquo; delante
-de cada <strong>class</strong> genera por nosotros multiples beneficios tales como:</p>
+</span></code></pre></div><p>In this last fragment, we can see a companion object where we can define other default constructors, such as the one to create a vehicle with 220 km of speed, also you can create an internal constructor that can also be overwritten but we don&rsquo;t show any example because the truth is not used either
+as much as in other languages, in fact, many publications advise writing the most functional code possible, and for this, they recommend creating
+their class attributes like <strong>val</strong> or they also use <strong>case class</strong> which we will explain next.</p>
+<h2 id="what-are-case-classes">What are case classes?</h2>
+<p>A <strong>case class</strong> is a class with all its features and more, when the Scala compiler sees the reserved word &ldquo;case&rdquo; in front of it.
+of each <strong>class</strong> generates multiple benefits such as:</p>
 <ul>
-<li>Los parámetros del constructor son <strong><em>val y public</em></strong> de forma predeterminada, por lo que se generan métodos de acceso para cada uno de ellos.</li>
-<li>Automáticamente se genera en el objeto acompañante un método <strong><em>apply</em></strong> que permite crear instancias sin usar la palabra <strong><em>new</em></strong>.</li>
-<li>Se genera un método <strong><em>unapply</em></strong> que le permite usar de más formas las case clases en expresiones <strong>match/pattern matching</strong>.</li>
-<li>Se genera un método <strong><em>copy</em></strong> muy útil y que se usa todo el tiempo en la programación funcional.</li>
-<li>Además de <strong><em>equals, hashCode y toString</em></strong>, permitiendo una mejor comparación, usos de claves de mapas, escrituras concisas, etc.</li>
+<li>The constructor parameters are <strong><em>val and public</em></strong> by default, also are <strong><em>immutable</em></strong>, so accessor methods are generated for each of them.</li>
+<li>A <strong><em>apply</em></strong> method is automatically generated on the companion object that allows instantiating without using the <strong><em>new</em></strong> keyword.</li>
+<li>A <strong><em>unapply</em></strong> method is generated that allows you to use case classes in more ways in <strong>matching/pattern matching</strong> expressions.</li>
+<li>A very useful <strong><em>copy</em></strong> method is generated and is used all the time in functional programming.</li>
+<li>In addition to <strong><em>equals, hashCode, and toString</em></strong>, allowing for better matching, use of map keys, terse typing, etc.</li>
 </ul>
-<p>Todas esas características intentaremos mostrar a continuación (partiendo y transformando el mismo ejemplo del vehículo):</p>
+<p>We will try to show all these characteristics below (starting and transforming the same example of the vehicle):</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala"><span class="k">case</span> <span class="k">class</span> <span class="nc">Vehicle2</span><span class="o">(</span><span class="n">passengers</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span> <span class="n">speed</span><span class="k">:</span> <span class="kt">Int</span><span class="o">,</span> <span class="n">unit</span><span class="k">:</span> <span class="kt">String</span><span class="o">){</span>
     <span class="k">val</span> <span class="n">speedDescription</span><span class="k">:</span> <span class="kt">String</span>  <span class="o">=</span> <span class="s">s&#34;</span><span class="si">$speed</span><span class="s"> </span><span class="si">$unit</span><span class="s">&#34;</span>
 <span class="o">}</span>
-</code></pre></div><p>Ya podemos ver una clase mucho más limpia y concisa, vemos como crear instancias de objetos de multiples maneras:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala"><span class="c1">// Constructor normal y el más usado
+</code></pre></div><p>We can already see a much cleaner and more concise class, we see how to instantiate objects in multiple ways:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala"><span class="c1">// Normal constructor and the most used
 </span><span class="c1"></span><span class="k">val</span> <span class="n">myCar</span>  <span class="k">=</span> <span class="nc">Vehicle2</span><span class="o">(</span><span class="mi">5</span><span class="o">,</span> <span class="mi">200</span><span class="o">,</span> <span class="s">&#34;km&#34;</span><span class="o">)</span>          
-<span class="c1">// Usando apply explícitamente
+<span class="c1">// Using apply explicitly
 </span><span class="c1"></span><span class="k">val</span> <span class="n">myCar1</span> <span class="k">=</span> <span class="nc">Vehicle2</span><span class="o">.</span><span class="n">apply</span><span class="o">(</span><span class="mi">5</span><span class="o">,</span> <span class="mi">200</span><span class="o">,</span> <span class="s">&#34;km&#34;</span><span class="o">)</span>    
-<span class="c1">// Mediante &#34;tupla&#34; de valores
+<span class="c1">// By &#34;tuple&#34; of values
 </span><span class="c1"></span><span class="k">val</span> <span class="n">myCar2</span> <span class="k">=</span> <span class="nc">Vehicle2</span><span class="o">.</span><span class="n">tupled</span><span class="o">((</span><span class="mi">5</span><span class="o">,</span> <span class="mi">200</span><span class="o">,</span> <span class="s">&#34;km&#34;</span><span class="o">))</span> 
-<span class="c1">// Con parámetros modo currying
+<span class="c1">// Through currying mode parameters
 </span><span class="c1"></span><span class="k">val</span> <span class="n">myCar3</span> <span class="k">=</span> <span class="nc">Vehicle2</span><span class="o">.</span><span class="n">curried</span><span class="o">(</span><span class="mi">5</span><span class="o">)(</span><span class="mi">200</span><span class="o">)(</span><span class="s">&#34;km&#34;</span><span class="o">)</span>  
-</code></pre></div><p>Usamos los métodos generados automáticamente:</p>
+</code></pre></div><p>We can use the automatically generated methods:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala"><span class="n">myCar</span><span class="o">.</span><span class="n">passengers</span>     <span class="c1">// 5
 </span><span class="c1"></span><span class="n">myCar</span><span class="o">.</span><span class="n">speed</span>          <span class="c1">// 200
-</span><span class="c1"></span><span class="n">myCar</span><span class="o">.</span><span class="n">speed</span> <span class="k">=</span> <span class="mi">300</span>    <span class="c1">// no compila -&gt; error: reassignment to val
+</span><span class="c1"></span><span class="n">myCar</span><span class="o">.</span><span class="n">speed</span> <span class="k">=</span> <span class="mi">300</span>    <span class="c1">// don&#39;t compile -&gt; error: reassignment to val
 </span><span class="c1"></span><span class="n">myCar</span><span class="o">.</span><span class="n">unit</span>           <span class="c1">// km
 </span><span class="c1"></span><span class="n">println</span><span class="o">(</span><span class="n">myCar</span><span class="o">)</span>       <span class="c1">// Vehicle2(5,200,km)
 </span><span class="c1"></span>
 <span class="k">val</span> <span class="n">myFastCar</span> <span class="k">=</span> <span class="n">myCar</span><span class="o">.</span><span class="n">copy</span><span class="o">(</span><span class="n">passengers</span> <span class="k">=</span> <span class="mi">2</span><span class="o">,</span> <span class="n">speed</span> <span class="k">=</span> <span class="mi">320</span><span class="o">)</span>
 <span class="n">println</span><span class="o">(</span><span class="n">myFastCar</span><span class="o">)</span> <span class="c1">// Vehicle2(2,320,km)
-</span></code></pre></div><p>Comparamos por estructura y no por referencia:</p>
+</span></code></pre></div><p>We compare by structure and not by reference:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala"><span class="n">myCar</span> <span class="o">==</span> <span class="n">myCar1</span>    <span class="c1">// true
 </span><span class="c1"></span><span class="n">myCar</span> <span class="o">==</span> <span class="n">myCar2</span>    <span class="c1">// true
 </span><span class="c1"></span><span class="n">myCar</span> <span class="o">==</span> <span class="n">myCar3</span>    <span class="c1">// true
 </span><span class="c1"></span><span class="n">myCar</span> <span class="o">==</span> <span class="n">myFastCar</span> <span class="c1">// false
-</span></code></pre></div><p>Usamos el unapply en expresiones match (Modo Simple):</p>
+</span></code></pre></div><p>We can use the unapply in match expressions (Simple Mode):</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala"><span class="k">def</span> <span class="n">recognizeVehicle</span><span class="o">(</span><span class="n">x</span><span class="k">:</span> <span class="kt">Vehicle2</span><span class="o">)</span><span class="k">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="n">x</span> <span class="k">match</span> <span class="o">{</span>
   <span class="k">case</span> <span class="nc">Vehicle2</span><span class="o">(</span><span class="mi">10</span><span class="o">,</span> <span class="n">speed</span><span class="o">,</span> <span class="n">unit</span><span class="o">)</span> <span class="k">=&gt;</span>
-    <span class="s">s&#34;Minivan de 10 pasajeros con velocidad de </span><span class="si">$speed</span><span class="s"> </span><span class="si">$unit</span><span class="s">&#34;</span>
+    <span class="s">s&#34;10 passenger minivan with speed of </span><span class="si">$speed</span><span class="s"> </span><span class="si">$unit</span><span class="s">&#34;</span>
   <span class="k">case</span> <span class="nc">Vehicle2</span><span class="o">(</span><span class="mi">2</span><span class="o">,</span> <span class="n">speed</span><span class="o">,</span> <span class="k">_</span><span class="o">)</span> <span class="k">if</span> <span class="n">speed</span> <span class="o">&gt;</span> <span class="mi">300</span> <span class="k">=&gt;</span>
-    <span class="s">s&#34;Auto deportivo de alta velocidad </span><span class="si">${</span><span class="n">x</span><span class="o">.</span><span class="n">speedDescription</span><span class="si">}</span><span class="s">&#34;</span>
+    <span class="s">s&#34;High speed sports car </span><span class="si">${</span><span class="n">x</span><span class="o">.</span><span class="n">speedDescription</span><span class="si">}</span><span class="s">&#34;</span>
   <span class="k">case</span> <span class="k">_</span> <span class="k">=&gt;</span>
-    <span class="s">&#34;Cualquier auto no minivan, ni deportivo: &#34;</span> <span class="o">+</span> <span class="n">x</span>
+    <span class="s">&#34;Any non-minivan or sports car: &#34;</span> <span class="o">+</span> <span class="n">x</span>
 <span class="o">}</span>
 
 <span class="k">val</span> <span class="n">minivan</span> <span class="k">=</span> <span class="nc">Vehicle2</span><span class="o">(</span><span class="mi">10</span><span class="o">,</span> <span class="mi">100</span><span class="o">,</span> <span class="s">&#34;km&#34;</span><span class="o">)</span>
 <span class="n">println</span><span class="o">(</span><span class="n">recognizeVehicle</span><span class="o">(</span><span class="n">minivan</span><span class="o">))</span>   
-<span class="c1">// Minivan de 10 pasajeros con velocidad de 100 km
+<span class="c1">// 10 passenger minivan with speed of 100 km
 </span><span class="c1"></span>
 <span class="n">println</span><span class="o">(</span><span class="n">recognizeVehicle</span><span class="o">(</span><span class="n">myFastCar</span><span class="o">))</span> 
-<span class="c1">// Auto deportivo de alta velocidad 320 km
+<span class="c1">// High speed sports car 320 km
 </span><span class="c1"></span>
 <span class="n">println</span><span class="o">(</span><span class="n">recognizeVehicle</span><span class="o">(</span><span class="n">myCar</span><span class="o">))</span>
-<span class="c1">// Cualquier auto no minivan, ni deportivo: Vehicle2(5,200,km)     
-</span></code></pre></div><p>Veamos ahora un ejemplo un poco más abarcador usando <strong><em>unapply y pattern matching</em></strong>:</p>
+<span class="c1">// Any non-minivan or sports car: Vehicle2(5,200,km)     
+</span></code></pre></div><p>Let&rsquo;s now look at a slightly more comprehensive example using <strong><em>unapply and pattern matching</em></strong>:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scala" data-lang="scala"><span class="k">sealed</span> <span class="k">trait</span> <span class="nc">Animal</span> <span class="o">{</span>
   <span class="k">def</span> <span class="n">name</span><span class="k">:</span> <span class="kt">String</span>
 <span class="o">}</span>
@@ -394,23 +391,23 @@ de cada <strong>class</strong> genera por nosotros multiples beneficios tales co
 <span class="k">case</span> <span class="k">class</span> <span class="nc">Cat</span><span class="o">(</span><span class="n">name</span><span class="k">:</span> <span class="kt">String</span><span class="o">,</span> <span class="n">color</span><span class="k">:</span> <span class="kt">String</span><span class="o">)</span> <span class="k">extends</span> <span class="nc">Animal</span>
 
 <span class="k">def</span> <span class="n">recognizeAnimal</span><span class="o">(</span><span class="n">a</span><span class="k">:</span> <span class="kt">Animal</span><span class="o">)</span><span class="k">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="n">a</span> <span class="k">match</span> <span class="o">{</span>
-  <span class="k">case</span> <span class="nc">Dog</span><span class="o">(</span><span class="n">name</span><span class="o">,</span> <span class="n">owner</span><span class="o">)</span> <span class="k">=&gt;</span> <span class="s">s&#34;El perro </span><span class="si">$name</span><span class="s"> es de </span><span class="si">$owner</span><span class="s">.&#34;</span>
-  <span class="k">case</span> <span class="nc">Cat</span><span class="o">(</span><span class="n">name</span><span class="o">,</span> <span class="n">color</span><span class="o">)</span> <span class="k">=&gt;</span> <span class="s">s&#34;</span><span class="si">${</span><span class="n">name</span><span class="o">.</span><span class="n">capitalize</span><span class="si">}</span><span class="s"> es un gato </span><span class="si">$color</span><span class="s"> muy hermoso.&#34;</span>
+  <span class="k">case</span> <span class="nc">Dog</span><span class="o">(</span><span class="n">name</span><span class="o">,</span> <span class="n">owner</span><span class="o">)</span> <span class="k">=&gt;</span> <span class="s">s&#34;The dog </span><span class="si">$name</span><span class="s"> belongs to </span><span class="si">$owner</span><span class="s">.&#34;</span>
+  <span class="k">case</span> <span class="nc">Cat</span><span class="o">(</span><span class="n">name</span><span class="o">,</span> <span class="n">color</span><span class="o">)</span> <span class="k">=&gt;</span> <span class="s">s&#34;</span><span class="si">${</span><span class="n">name</span><span class="o">.</span><span class="n">capitalize</span><span class="si">}</span><span class="s"> is a very beautiful </span><span class="si">$color</span><span class="s"> cat.&#34;</span>
 <span class="o">}</span>
 
 <span class="k">val</span> <span class="n">bony</span> <span class="k">=</span> <span class="nc">Dog</span><span class="o">(</span><span class="s">&#34;Bony&#34;</span><span class="o">,</span> <span class="s">&#34;Pedrito&#34;</span><span class="o">)</span>
 <span class="k">val</span> <span class="n">tom</span>  <span class="k">=</span> <span class="nc">Cat</span><span class="o">(</span><span class="s">&#34;tom&#34;</span><span class="o">,</span> <span class="s">&#34;negro&#34;</span><span class="o">)</span>
 
 <span class="n">println</span><span class="o">(</span><span class="n">recognizeAnimal</span><span class="o">(</span><span class="n">bony</span><span class="o">))</span> 
-<span class="c1">// El perro Bony es de Pedrito.
+<span class="c1">// The dog Bony belongs to Pedrito.
 </span><span class="c1"></span>
 <span class="n">println</span><span class="o">(</span><span class="n">recognizeAnimal</span><span class="o">(</span><span class="n">tom</span><span class="o">))</span>  
-<span class="c1">// Tom es un gato negro muy hermoso.
-</span></code></pre></div><p>Esto funciona gracias al estándar de Scala de que un método <strong><em>unapply</em></strong> devuelva los atributos de constructor de cada case class en una <strong>tupla</strong> que está
-envuelta en un <strong>Option</strong> (Ya veremos en posteriores artículos que significa). Esta característica es considerada según el mismísimo Martin Odersky en
-su libro <a href="https://www.amazon.com/Programming-Scala-Updated-2-12/dp/0981531687/">Programming in Scala</a> como la de mayor ventaja de las <strong>case class</strong>, pues
-los pattern matching es una característica fundamental en todos los lenguajes de programación funcional.</p>
-<h3 id="referencias-y-otros-links-de-interés">Referencias y otros links de interés:</h3>
+<span class="c1">// Tom is a very beautiful black cat.
+</span></code></pre></div><p>This works thanks to the Scala standard that an <strong><em>unapply</em></strong> method returns the constructor attributes of each case class in a <strong>tuple</strong> that is
+wrapped in an <strong>Option</strong> (We&rsquo;ll see in later articles what it means). This characteristic is considered according to Martin Odersky himself in
+his book <a href="https://www.amazon.com/Programming-Scala-Updated-2-12/dp/0981531687/">Programming in Scala</a> as the one with the greatest advantage of the <strong>case class</strong>, since
+Pattern matching is a fundamental feature in all functional programming languages.</p>
+<h3 id="references-and-other-links-of-interest">References and other links of interest:</h3>
 <ul>
 <li>Scala Lang(class): <a href="https://docs.scala-lang.org/tour/classes.html">Classes</a></li>
 <li>Alvin Alexander / Scala: <a href="https://alvinalexander.com/scala/scala-class-examples-constructors-case-classes-parameters/">Case Classes</a></li>
