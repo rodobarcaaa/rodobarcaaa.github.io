@@ -1,12 +1,14 @@
 ---
-title: About me
-subtitle: Rodolfo Echemendía Quintana
+title: About me 
+subtitle: Rodolfo Echemendía Quintana 
 comments: false
 ---
+
 ### Resume
 
-Experienced software engineer working in the technology industry. Skilled in Scala to develop web products, back-end mainly, such as web services REST and GraphQL, connections to databases, and interaction with third parties. In addition to being a team leader with good management and interpersonal skills.
-
+Experienced software engineer working in the technology industry. Skilled in Scala to develop web products, back-end
+mainly, such as web services REST and GraphQL, connections to databases, and interaction with third parties. In addition
+to being a team/tech leader with good management and interpersonal skills.
 
 ```scala
 def profile = {

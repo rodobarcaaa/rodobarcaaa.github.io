@@ -24,7 +24,7 @@ What are Classes? Like other programming languages, a class is a template that d
       <pubDate>Wed, 28 Apr 2021 08:51:49 -0300</pubDate>
       <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
       <guid>https://rodobarcaaa.github.io/en/post/scala-intro/</guid>
-      <description>¿Qué es Scala? Scala es un lenguaje open source creado por Martin Odersky, por concepto es un lenguaje multi-paradigma de propósito general, que combina programación orientada a objetos y funcional en un lenguaje de alto nivel y con tipos seguros. Gracias a sus tipos estáticos ayuda evitar errores en aplicaciones muy complejas. Es ejecutado en la JVM, además se integra con JavaScript, permite construir sistemas de alto rendimiento y con fácil acceso a enormes ecosistemas de librerías.</description>
+      <description>What is Scala? Scala is an open-source language created by Martin Odersky, by concept, it is a general-purpose multi-paradigm language, which combines object-oriented and functional programming in a high-level, type-safe language. Thanks to its static types, it helps to avoid errors in very complex applications. It is executed in the JVM, it also integrates with JavaScript, it allows you to build high performance systems with easy access to huge library ecosystems.</description>
     </item>
     
     <item>
@@ -33,7 +33,7 @@ What are Classes? Like other programming languages, a class is a template that d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
       <guid>https://rodobarcaaa.github.io/en/page/about/</guid>
-      <description>Resume Experienced software engineer working in the technology industry. Skilled in Scala to develop web products, back-end mainly, such as web services REST and GraphQL, connections to databases, and interaction with third parties. In addition to being a team leader with good management and interpersonal skills.
+      <description>Resume Experienced software engineer working in the technology industry. Skilled in Scala to develop web products, back-end mainly, such as web services REST and GraphQL, connections to databases, and interaction with third parties. In addition to being a team/tech leader with good management and interpersonal skills.
 def profile = { val pronouns = &amp;#34;He&amp;#34; -&amp;gt; &amp;#34;Him&amp;#34; val education = &amp;#34;&amp;#34;&amp;#34;👨‍🎓 Computer Science Engineer&amp;#39;s (Cuba-UCI / Class of 2011)&amp;#34;&amp;#34;&amp;#34; val blogUrl = &amp;#34;https://rodobarcaaa.</description>
     </item>
     

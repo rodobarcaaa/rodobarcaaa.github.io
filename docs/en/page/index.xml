@@ -13,7 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
       <guid>https://rodobarcaaa.github.io/en/page/about/</guid>
-      <description>Resume Experienced software engineer working in the technology industry. Skilled in Scala to develop web products, back-end mainly, such as web services REST and GraphQL, connections to databases, and interaction with third parties. In addition to being a team leader with good management and interpersonal skills.
+      <description>Resume Experienced software engineer working in the technology industry. Skilled in Scala to develop web products, back-end mainly, such as web services REST and GraphQL, connections to databases, and interaction with third parties. In addition to being a team/tech leader with good management and interpersonal skills.
 def profile = { val pronouns = &amp;#34;He&amp;#34; -&amp;gt; &amp;#34;Him&amp;#34; val education = &amp;#34;&amp;#34;&amp;#34;👨‍🎓 Computer Science Engineer&amp;#39;s (Cuba-UCI / Class of 2011)&amp;#34;&amp;#34;&amp;#34; val blogUrl = &amp;#34;https://rodobarcaaa.</description>
     </item>
     
