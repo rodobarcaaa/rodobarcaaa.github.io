@@ -106,16 +106,16 @@
                 href="https://rodobarcaaa.github.io/en/post/scala-intro/"
                 />
   </url><url>
-    <loc>https://rodobarcaaa.github.io/en/page/about/</loc>
+    <loc>https://rodobarcaaa.github.io/en/about-me/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://rodobarcaaa.github.io/es/page/about/"
+                href="https://rodobarcaaa.github.io/es/about-me/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rodobarcaaa.github.io/en/page/about/"
+                href="https://rodobarcaaa.github.io/en/about-me/"
                 />
   </url><url>
     <loc>https://rodobarcaaa.github.io/en/categories/</loc>
@@ -128,18 +128,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://rodobarcaaa.github.io/en/categories/"
-                />
-  </url><url>
-    <loc>https://rodobarcaaa.github.io/en/page/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://rodobarcaaa.github.io/es/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rodobarcaaa.github.io/en/page/"
                 />
   </url>
 </urlset>

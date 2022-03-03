@@ -1,2 +1,2 @@
 # About
-My personal technology blog
+My personal programming blog

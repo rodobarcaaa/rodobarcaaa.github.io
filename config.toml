@@ -41,7 +41,7 @@ pygmentOptions = "linenos=inline"
   [languages.en]
     contentDir = "content/en"
     languageName = "English"
-    title = "Rodolfo's blog"
+    title = "Programming Blog"
   [[languages.en.menu.main]]
     name = "Articles"
     url = ""
@@ -52,18 +52,14 @@ pygmentOptions = "linenos=inline"
     weight = 2
   [[languages.en.menu.main]]
     name = "About me"
-    url = "page/about/"
+    url = "about-me/"
     weight = 3
-  [languages.en.params]
-    homeTitle = "Personal Tech Blog"
-  [[languages.en.params.bigimg]]
-    src = "img/sphere.jpg"
-    position = "center top"
+
 
   [languages.es]
     contentDir = "content/es"
     languageName = "Español"
-    title = "Blog de Rodolfo"
+    title = "Blog de Programación"
   [[languages.es.menu.main]]
     name = "Artículos"
     url = ""
@@ -74,10 +70,5 @@ pygmentOptions = "linenos=inline"
     weight = 2
   [[languages.es.menu.main]]
     name = "Sobre Mi"
-    url = "page/about/"
+    url = "about-me/"
     weight = 3
-  [languages.es.params]
-    homeTitle = "Blog Personal de Tecnología"
-  [[languages.es.params.bigimg]]
-    src = "img/sphere.jpg"
-    position = "center top"

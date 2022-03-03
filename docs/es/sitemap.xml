@@ -118,28 +118,16 @@
                 href="https://rodobarcaaa.github.io/es/categories/"
                 />
   </url><url>
-    <loc>https://rodobarcaaa.github.io/es/page/</loc>
+    <loc>https://rodobarcaaa.github.io/es/about-me/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://rodobarcaaa.github.io/en/page/"
+                href="https://rodobarcaaa.github.io/en/about-me/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://rodobarcaaa.github.io/es/page/"
-                />
-  </url><url>
-    <loc>https://rodobarcaaa.github.io/es/page/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://rodobarcaaa.github.io/en/page/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://rodobarcaaa.github.io/es/page/about/"
+                href="https://rodobarcaaa.github.io/es/about-me/"
                 />
   </url>
 </urlset>
