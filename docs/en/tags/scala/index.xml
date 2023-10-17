@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>scala on Programming Blog</title>
-    <link>https://rodobarcaaa.github.io/en/tags/scala/</link>
+    <link>https://blog.rechemendía.com/en/tags/scala/</link>
     <description>Recent content in scala on Programming Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</managingEditor>
     <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster>
-    <lastBuildDate>Fri, 30 Apr 2021 08:51:49 -0300</lastBuildDate><atom:link href="https://rodobarcaaa.github.io/en/tags/scala/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Apr 2021 08:51:49 -0300</lastBuildDate><atom:link href="https://blog.rechemendía.com/en/tags/scala/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Class, Case Class, and their secrets!</title>
-      <link>https://rodobarcaaa.github.io/en/post/case-class/</link>
+      <link>https://blog.rechemendía.com/en/post/case-class/</link>
       <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate>
       <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
-      <guid>https://rodobarcaaa.github.io/en/post/case-class/</guid>
+      <guid>https://blog.rechemendía.com/en/post/case-class/</guid>
       <description>As we already know from the previous article Why Scala, what is it and what is interesting about it?, Scala is a programming language that combines object-oriented and functional programming, then today we will see the class and case class, how to use them, some secrets of the case class and why they are the favorites for everyday use.
 What are Classes? Like other programming languages, a class is a template that defines an object; can contain values, variables, types, and methods that mostly operate on them.</description>
     </item>
-    
+
     <item>
       <title>Why Scala?</title>
-      <link>https://rodobarcaaa.github.io/en/post/scala-intro/</link>
+      <link>https://blog.rechemendía.com/en/post/scala-intro/</link>
       <pubDate>Wed, 28 Apr 2021 08:51:49 -0300</pubDate>
       <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
-      <guid>https://rodobarcaaa.github.io/en/post/scala-intro/</guid>
+      <guid>https://blog.rechemendía.com/en/post/scala-intro/</guid>
       <description>What is Scala? Scala is an open-source language created by Martin Odersky, by concept, it is a general-purpose multi-paradigm language, which combines object-oriented and functional programming in a high-level, type-safe language. Thanks to its static types, it helps to avoid errors in very complex applications. It is executed in the JVM, it also integrates with JavaScript, it allows you to build high performance systems with easy access to huge library ecosystems.</description>
     </item>
-    
+
   </channel>
 </rss>

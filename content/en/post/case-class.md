@@ -8,7 +8,7 @@ tags:
 - case class
 ---
 
-As we already know from the previous article [Why Scala, what is it and what is interesting about it?](https://rodobarcaaa.github.io/art%C3%ADculos/scala/),
+As we already know from the previous article [Why Scala, what is it and what is interesting about it?](https://blog.rechemendía.com/art%C3%ADculos/scala/),
 Scala is a programming language that combines object-oriented and functional programming, then today we will see the **class and case class**,
 how to use them, some secrets of the **case class** and why they are the favorites for everyday use.
 
@@ -42,7 +42,7 @@ don't take arguments. But, we often want a constructor and a body in each class 
 ```
 As we can see, this Vehicle class has **4 members**: the variables **passengers, speed and unit** that can be edited, the method **toString**,
 unlike other languages, the main constructor is in the class signature and not after. builders like
-methods can also take a default value, define mutable or immutable variables as we saw in the [previous example](https://rodobarcaaa.github.io/art%C3%ADculos/scala/)
+methods can also take a default value, define mutable or immutable variables as we saw in the [previous example](https://blog.rechemendía.com/art%C3%ADculos/scala/)
 and private or public as we will see below:
 
 ```scala

@@ -8,7 +8,7 @@ tags:
 - case class
 ---
 
-Como ya sabemos del artículo anterior [¿Porque Scala, que es y tiene de interesante?](https://rodobarcaaa.github.io/art%C3%ADculos/scala/),
+Como ya sabemos del artículo anterior [¿Porque Scala, que es y tiene de interesante?](https://blog.rechemendía.com/art%C3%ADculos/scala/),
 Scala es lenguaje de programación que combina la programación orientada a objetos y funcional, pues hoy veremos las **class y case class**,
 como usarlas, algunos secretos de las **case class** y porque son las favoritas para el uso en el día a día.
 

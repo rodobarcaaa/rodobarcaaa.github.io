@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Blog de Programación</title>
-    <link>https://rodobarcaaa.github.io/es/categories/</link>
+    <link>https://blog.rechemendía.com/es/categories/</link>
     <description>Recent content in Categories on Blog de Programación</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</managingEditor>
-    <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster><atom:link href="https://rodobarcaaa.github.io/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster><atom:link href="https://blog.rechemendía.com/es/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

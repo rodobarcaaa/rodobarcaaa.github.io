@@ -14,7 +14,7 @@ interacción con terceros. Además de ser un lider de equipo con buena administr
 def profile = {
   val pronouns     = "He" -> "Him"
   val education    = """👨‍🎓 Computer Science Engineer's (Cuba-UCI / Class of 2011)"""
-  val blogUrl      = "https://rodobarcaaa.github.io/"
+  val blogUrl      = "https://blog.rechemendía.com/"
   val askMeAbout   = ("tech", "webdev", "soccer")
   val technologies = for {
     backend   <- {
@@ -31,4 +31,4 @@ def profile = {
 }
 ```
 
-##### Además puedes ver más acá: [es-online-cv](https://rodobarcaaa.github.io/es-online-cv/)
+##### Además puedes ver más acá: [es-online-cv](https://blog.rechemendía.com/es-online-cv/)
