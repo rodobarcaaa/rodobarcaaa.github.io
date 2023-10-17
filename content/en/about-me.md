@@ -14,7 +14,7 @@ to being a team/tech leader with good management and interpersonal skills.
 def profile = {
   val pronouns     = "He" -> "Him"
   val education    = """👨‍🎓 Computer Science Engineer's (Cuba-UCI / Class of 2011)"""
-  val blogUrl      = "https://blog.rechemendía.com/"
+  val blogUrl      = "https://blog.echemendía.com/"
   val askMeAbout   = ("tech", "webdev", "soccer")
   val technologies = for {
     backend   <- {
@@ -31,4 +31,4 @@ def profile = {
 }
 ```
 
-##### You can also see here: [online-cv](https://blog.rechemendía.com/online-cv/)
+##### You can also see here: [online-cv](https://blog.echemendía.com/online-cv/)

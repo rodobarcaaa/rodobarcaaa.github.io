@@ -1,4 +1,4 @@
-baseurl = "https://blog.rechemendía.com"
+baseurl = "https://blog.echemendía.com"
 publishDir = "docs"
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
@@ -31,7 +31,7 @@ pygmentOptions = "linenos=inline"
 
 [Author]
   name = "Rodolfo Echemendía Quintana"
-  website = "blog.rechemendía.com"
+  website = "blog.echemendía.com"
   email = "rodobarcaaa@gmail.com"
   github = "rodobarcaaa"
   twitter = "rodobarcaaa"
