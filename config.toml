@@ -59,7 +59,7 @@ pygmentOptions = "linenos=inline"
   [languages.es]
     contentDir = "content/es"
     languageName = "Español"
-    title = "Blog de Programación"
+    title = "Blog de Scala"
   [[languages.es.menu.main]]
     name = "Artículos"
     url = ""
