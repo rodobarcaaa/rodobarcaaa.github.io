@@ -2,38 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blog de Programación</title>
-    <link>https://blog.echemendía.com/es/tags/</link>
+    <link>https://blog.echemend%C3%ADa.com/es/tags/</link>
     <description>Recent content in Tags on Blog de Programación</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
     <managingEditor>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</managingEditor>
     <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster>
-    <lastBuildDate>Fri, 30 Apr 2021 08:51:49 -0300</lastBuildDate><atom:link href="https://blog.echemendía.com/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Apr 2021 08:51:49 -0300</lastBuildDate>
+    <atom:link href="https://blog.echemend%C3%ADa.com/es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>case class</title>
-      <link>https://blog.echemendía.com/es/tags/case-class/</link>
-      <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate>
-      <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
-      <guid>https://blog.echemendía.com/es/tags/case-class/</guid>
+      <link>https://blog.echemend%C3%ADa.com/es/tags/case-class/</link>
+      <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate><author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
+      <guid>https://blog.echemend%C3%ADa.com/es/tags/case-class/</guid>
       <description></description>
     </item>
-
     <item>
       <title>class</title>
-      <link>https://blog.echemendía.com/es/tags/class/</link>
-      <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate>
-      <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
-      <guid>https://blog.echemendía.com/es/tags/class/</guid>
+      <link>https://blog.echemend%C3%ADa.com/es/tags/class/</link>
+      <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate><author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
+      <guid>https://blog.echemend%C3%ADa.com/es/tags/class/</guid>
       <description></description>
     </item>
-
     <item>
       <title>scala</title>
-      <link>https://blog.echemendía.com/es/tags/scala/</link>
-      <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate>
-      <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
-      <guid>https://blog.echemendía.com/es/tags/scala/</guid>
+      <link>https://blog.echemend%C3%ADa.com/es/tags/scala/</link>
+      <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate><author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
+      <guid>https://blog.echemend%C3%ADa.com/es/tags/scala/</guid>
       <description></description>
     </item>
-
   </channel>
 </rss>

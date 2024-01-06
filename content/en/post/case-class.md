@@ -178,8 +178,8 @@ Pattern matching is a fundamental feature in all functional programming language
 ### References and other links of interest:
 * Scala Lang(class): [Classes](https://docs.scala-lang.org/tour/classes.html)
 * Alvin Alexander / Scala: [Case Classes](https://alvinalexander.com/scala/scala-class-examples-constructors-case-classes-parameters/)
-* SCALA EXERCISES: [Classes vs Case Classes](https://www.scala-exercises.org/scala_tutorial/classes_vs_case_classes)
-* Fragmentos del código: [Post2CaseClass.scala](https://github.com/rodobarcaaa/scala-blog-snippets/blob/main/src/main/scala/com/rodobarcaaa/Post2CaseClass.scala)
+* Scala Exercises: [Classes vs Case Classes](https://www.scala-exercises.org/scala_tutorial/classes_vs_case_classes)
+* Code Snippet: [Scala Case Classes](https://gist.github.com/rodobarcaaa/736ea1e93bb9239344509b8249a4cd39)
 
 
 

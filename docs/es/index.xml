@@ -2,40 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog de Programación</title>
-    <link>https://blog.echemendía.com/es/</link>
+    <link>https://blog.echemend%C3%ADa.com/es/</link>
     <description>Recent content on Blog de Programación</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
     <managingEditor>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</managingEditor>
     <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster>
-    <lastBuildDate>Fri, 30 Apr 2021 08:51:49 -0300</lastBuildDate><atom:link href="https://blog.echemendía.com/es/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Apr 2021 08:51:49 -0300</lastBuildDate>
+    <atom:link href="https://blog.echemend%C3%ADa.com/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¡Class, Case Class y sus secretos!</title>
-      <link>https://blog.echemendía.com/es/post/case-class/</link>
-      <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate>
-      <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
-      <guid>https://blog.echemendía.com/es/post/case-class/</guid>
-      <description>Como ya sabemos del artículo anterior ¿Porque Scala, que es y tiene de interesante?, Scala es lenguaje de programación que combina la programación orientada a objetos y funcional, pues hoy veremos las class y case class, como usarlas, algunos secretos de las case class y porque son las favoritas para el uso en el día a día.
-¿Que son las Clases? Al igual que otros lenguajes de programación, una clase es una plantilla que define la forma de un objeto; pueden contener valores, variables, tipos y métodos que mayormente operan sobre estos.</description>
+      <link>https://blog.echemend%C3%ADa.com/es/post/case-class/</link>
+      <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate><author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
+      <guid>https://blog.echemend%C3%ADa.com/es/post/case-class/</guid>
+      <description>Como ya sabemos del artículo anterior ¿Porque Scala, que es y tiene de interesante?, Scala es lenguaje de programación que combina la programación orientada a objetos y funcional, pues hoy veremos las class y case class, como usarlas, algunos secretos de las case class y porque son las favoritas para el uso en el día a día.&#xA;¿Que son las Clases? Al igual que otros lenguajes de programación, una clase es una plantilla que define la forma de un objeto; pueden contener valores, variables, tipos y métodos que mayormente operan sobre estos.</description>
     </item>
-
     <item>
       <title>¿Por qué Scala?</title>
-      <link>https://blog.echemendía.com/es/post/scala-intro/</link>
-      <pubDate>Wed, 28 Apr 2021 08:51:49 -0300</pubDate>
-      <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
-      <guid>https://blog.echemendía.com/es/post/scala-intro/</guid>
+      <link>https://blog.echemend%C3%ADa.com/es/post/scala-intro/</link>
+      <pubDate>Wed, 28 Apr 2021 08:51:49 -0300</pubDate><author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
+      <guid>https://blog.echemend%C3%ADa.com/es/post/scala-intro/</guid>
       <description>¿Qué es Scala? Scala es un lenguaje open source creado por Martin Odersky, por concepto es un lenguaje multi-paradigma de propósito general, que combina programación orientada a objetos y funcional en un lenguaje de alto nivel y con tipos seguros. Gracias a sus tipos estáticos ayuda evitar errores en aplicaciones muy complejas. Es ejecutado en la JVM, además se integra con JavaScript, permite construir sistemas de alto rendimiento y con fácil acceso a enormes ecosistemas de librerías.</description>
     </item>
-
     <item>
       <title>Sobre mi</title>
-      <link>https://blog.echemendía.com/es/about-me/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
-      <guid>https://blog.echemendía.com/es/about-me/</guid>
-      <description>Resumen Ingeniero de software con amplia experiencia trabajando en la industria de la tecnología. Con habilidades para desarrollar productos web, principalmente BackEnd, como servicios web REST y GraphQL, conexiones a bases de datos e interacción con terceros. Además de ser un lider de equipo con buena administración y habilidades de comunicación.
-def profile = { val pronouns = &amp;#34;He&amp;#34; -&amp;gt; &amp;#34;Him&amp;#34; val education = &amp;#34;&amp;#34;&amp;#34;👨‍🎓 Computer Science Engineer&amp;#39;s (Cuba-UCI / Class of 2011)&amp;#34;&amp;#34;&amp;#34; val blogUrl = &amp;#34;https://rodobarcaaa.</description>
+      <link>https://blog.echemend%C3%ADa.com/es/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
+      <guid>https://blog.echemend%C3%ADa.com/es/about-me/</guid>
+      <description>object Profile { val pronouns = &amp;#34;He&amp;#34; -&amp;gt; &amp;#34;Him&amp;#34; val name = &amp;#34;Rodolfo Echemendía Quintana&amp;#34; val formation = &amp;#34;👨‍🎓 Computer Science Engineer&amp;#39;s (Cuba-UCI / Class of 2011)&amp;#34; val blogUrl = &amp;#34;https://blog.echemendía.com&amp;#34; val askMeAbout = (&amp;#34;Tech&amp;#34;, &amp;#34;WebDev&amp;#34;, &amp;#34;Soccer&amp;#34;) val currentFocus = List(&amp;#34;Play&amp;#34;, &amp;#34;Http4s&amp;#34;, &amp;#34;Tapir&amp;#34;, &amp;#34;Slick&amp;#34;, &amp;#34;Cats&amp;#34;, &amp;#34;Cats Effect&amp;#34;, &amp;#34;Spark&amp;#34;) val resume = { &amp;#34;&amp;#34;&amp;#34; |Ingeniero de software con experiencia en la industria de la tecnología, experto en Scala para desarrollar |principalmente productos web backend, incluidos servicios web REST y GraphQL, conexiones de bases de datos |e interacción con integraciones de terceros.</description>
     </item>
-
   </channel>
 </rss>

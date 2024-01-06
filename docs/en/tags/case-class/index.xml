@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>case class on Programming Blog</title>
-    <link>https://blog.echemendía.com/en/tags/case-class/</link>
-    <description>Recent content in case class on Programming Blog</description>
+    <title>case class on Scala Blog</title>
+    <link>https://blog.echemend%C3%ADa.com/en/tags/case-class/</link>
+    <description>Recent content in case class on Scala Blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <managingEditor>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</managingEditor>
     <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster>
-    <lastBuildDate>Fri, 30 Apr 2021 08:51:49 -0300</lastBuildDate><atom:link href="https://blog.echemendía.com/en/tags/case-class/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Apr 2021 08:51:49 -0300</lastBuildDate>
+    <atom:link href="https://blog.echemend%C3%ADa.com/en/tags/case-class/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Class, Case Class, and their secrets!</title>
-      <link>https://blog.echemendía.com/en/post/case-class/</link>
-      <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate>
-      <author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
-      <guid>https://blog.echemendía.com/en/post/case-class/</guid>
-      <description>As we already know from the previous article Why Scala, what is it and what is interesting about it?, Scala is a programming language that combines object-oriented and functional programming, then today we will see the class and case class, how to use them, some secrets of the case class and why they are the favorites for everyday use.
-What are Classes? Like other programming languages, a class is a template that defines an object; can contain values, variables, types, and methods that mostly operate on them.</description>
+      <link>https://blog.echemend%C3%ADa.com/en/post/case-class/</link>
+      <pubDate>Fri, 30 Apr 2021 08:51:49 -0300</pubDate><author>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</author>
+      <guid>https://blog.echemend%C3%ADa.com/en/post/case-class/</guid>
+      <description>As we already know from the previous article Why Scala, what is it and what is interesting about it?, Scala is a programming language that combines object-oriented and functional programming, then today we will see the class and case class, how to use them, some secrets of the case class and why they are the favorites for everyday use.&#xA;What are Classes? Like other programming languages, a class is a template that defines an object; can contain values, variables, types, and methods that mostly operate on them.</description>
     </item>
-
   </channel>
 </rss>

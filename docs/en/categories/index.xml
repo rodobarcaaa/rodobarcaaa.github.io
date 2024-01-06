@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Programming Blog</title>
-    <link>https://blog.echemendía.com/en/categories/</link>
-    <description>Recent content in Categories on Programming Blog</description>
+    <title>Categories on Scala Blog</title>
+    <link>https://blog.echemend%C3%ADa.com/en/categories/</link>
+    <description>Recent content in Categories on Scala Blog</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <managingEditor>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</managingEditor>
-    <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster><atom:link href="https://blog.echemendía.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>rodobarcaaa@gmail.com (Rodolfo Echemendía Quintana)</webMaster>
+    <atom:link href="https://blog.echemend%C3%ADa.com/en/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

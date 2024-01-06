@@ -2,132 +2,132 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.echemendía.com/es/</loc>
+    <loc>https://blog.echemend%C3%ADa.com/es/post/case-class/</loc>
     <lastmod>2021-04-30T08:51:49-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.echemendía.com/en/"
+                href="https://blog.echemend%C3%ADa.com/en/post/case-class/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://blog.echemendía.com/es/"
+                href="https://blog.echemend%C3%ADa.com/es/post/case-class/"
                 />
   </url><url>
-    <loc>https://blog.echemendía.com/es/tags/case-class/</loc>
+    <loc>https://blog.echemend%C3%ADa.com/es/</loc>
     <lastmod>2021-04-30T08:51:49-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.echemendía.com/en/tags/case-class/"
+                href="https://blog.echemend%C3%ADa.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://blog.echemendía.com/es/tags/case-class/"
+                href="https://blog.echemend%C3%ADa.com/es/"
                 />
   </url><url>
-    <loc>https://blog.echemendía.com/es/tags/class/</loc>
+    <loc>https://blog.echemend%C3%ADa.com/es/tags/case-class/</loc>
     <lastmod>2021-04-30T08:51:49-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.echemendía.com/en/tags/class/"
+                href="https://blog.echemend%C3%ADa.com/en/tags/case-class/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://blog.echemendía.com/es/tags/class/"
+                href="https://blog.echemend%C3%ADa.com/es/tags/case-class/"
                 />
   </url><url>
-    <loc>https://blog.echemendía.com/es/post/</loc>
+    <loc>https://blog.echemend%C3%ADa.com/es/tags/class/</loc>
     <lastmod>2021-04-30T08:51:49-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.echemendía.com/en/post/"
+                href="https://blog.echemend%C3%ADa.com/en/tags/class/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://blog.echemendía.com/es/post/"
+                href="https://blog.echemend%C3%ADa.com/es/tags/class/"
                 />
   </url><url>
-    <loc>https://blog.echemendía.com/es/tags/scala/</loc>
+    <loc>https://blog.echemend%C3%ADa.com/es/post/</loc>
     <lastmod>2021-04-30T08:51:49-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.echemendía.com/en/tags/scala/"
+                href="https://blog.echemend%C3%ADa.com/en/post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://blog.echemendía.com/es/tags/scala/"
+                href="https://blog.echemend%C3%ADa.com/es/post/"
                 />
   </url><url>
-    <loc>https://blog.echemendía.com/es/tags/</loc>
+    <loc>https://blog.echemend%C3%ADa.com/es/tags/scala/</loc>
     <lastmod>2021-04-30T08:51:49-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.echemendía.com/en/tags/"
+                href="https://blog.echemend%C3%ADa.com/en/tags/scala/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://blog.echemendía.com/es/tags/"
+                href="https://blog.echemend%C3%ADa.com/es/tags/scala/"
                 />
   </url><url>
-    <loc>https://blog.echemendía.com/es/post/case-class/</loc>
+    <loc>https://blog.echemend%C3%ADa.com/es/tags/</loc>
     <lastmod>2021-04-30T08:51:49-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.echemendía.com/en/post/case-class/"
+                href="https://blog.echemend%C3%ADa.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://blog.echemendía.com/es/post/case-class/"
+                href="https://blog.echemend%C3%ADa.com/es/tags/"
                 />
   </url><url>
-    <loc>https://blog.echemendía.com/es/post/scala-intro/</loc>
+    <loc>https://blog.echemend%C3%ADa.com/es/post/scala-intro/</loc>
     <lastmod>2021-04-28T08:51:49-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.echemendía.com/en/post/scala-intro/"
+                href="https://blog.echemend%C3%ADa.com/en/post/scala-intro/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://blog.echemendía.com/es/post/scala-intro/"
+                href="https://blog.echemend%C3%ADa.com/es/post/scala-intro/"
                 />
   </url><url>
-    <loc>https://blog.echemendía.com/es/categories/</loc>
+    <loc>https://blog.echemend%C3%ADa.com/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.echemendía.com/en/categories/"
+                href="https://blog.echemend%C3%ADa.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://blog.echemendía.com/es/categories/"
+                href="https://blog.echemend%C3%ADa.com/es/categories/"
                 />
   </url><url>
-    <loc>https://blog.echemendía.com/es/about-me/</loc>
+    <loc>https://blog.echemend%C3%ADa.com/es/about-me/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blog.echemendía.com/en/about-me/"
+                href="https://blog.echemend%C3%ADa.com/en/about-me/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://blog.echemendía.com/es/about-me/"
+                href="https://blog.echemend%C3%ADa.com/es/about-me/"
                 />
   </url>
 </urlset>

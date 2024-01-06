@@ -4,30 +4,23 @@ subtitle: Rodolfo Echemendía Quintana
 comments: false
 ---
 
-### Resumen
-
-Ingeniero de software con amplia experiencia trabajando en la industria de la tecnología. Con habilidades para
-desarrollar productos web, principalmente BackEnd, como servicios web REST y GraphQL, conexiones a bases de datos e
-interacción con terceros. Además de ser un lider de equipo con buena administración y habilidades de comunicación.
-
 ```scala
-def profile = {
+object Profile {
   val pronouns     = "He" -> "Him"
-  val education    = """👨‍🎓 Computer Science Engineer's (Cuba-UCI / Class of 2011)"""
-  val blogUrl      = "https://blog.echemendía.com/"
-  val askMeAbout   = ("tech", "webdev", "soccer")
-  val technologies = for {
-    backend   <- {
-      val java            = "My first programming language!"
-      val scalaFuture     = List("Play-Framework", "Tapir", "Sangria", "Slick")
-      val scalaFunctional = List("Http4s", "Tapir", "Cats", "Cats-Effect", "Monix-Task")
-      val python          = "Learning FastApi!⚡"
-      val node            = "Learning NestJs!𓃠"
-      java +: scalaFuture :+ scalaFunctional :+ python :+ node
+  val name         = "Rodolfo Echemendía Quintana"
+  val formation    = "👨‍🎓 Computer Science Engineer's (Cuba-UCI / Class of 2011)"
+  val blogUrl      = "https://blog.echemendía.com"
+  val askMeAbout   = ("Tech", "WebDev", "Soccer")
+  val currentFocus = List("Play", "Http4s", "Tapir", "Slick", "Cats", "Cats Effect", "Spark")
+  val resume       = {
+    """
+      |Ingeniero de software con experiencia en la industria de la tecnología, experto en Scala para desarrollar 
+      |principalmente productos web backend, incluidos servicios web REST y GraphQL, conexiones de bases de datos 
+      |e interacción con integraciones de terceros. También me aventuré en la ingeniería de datos, 
+      |aprovechando mi experiencia en Scala e integrándome perfectamente con herramientas como Spark. 
+      |Además, aporto cualidades de liderazgo con fuertes habilidades interpersonales y de gestión.
+      |""".stripMargin
     }
-    database  <- List("MySQL", "PostgreSQL", "Redis", "MongoDB")
-    devops    <- List("Docker", "AWS", "CI/CD", "Github Actions")
-  } yield println(List(backend, database, devops).mkString(" - "))
 }
 ```
 
